@@ -66,7 +66,7 @@ export default function ContactUsPage() {
           </h1>
           <div className="w-[100px] h-[4px] bg-[#c40000] mx-auto rounded" />
           <p className="text-gray-600 text-[16px] leading-[1.8] mt-2 font-medium">
-            Have questions about deposits, withdrawals, or creating your secure gaming ID? Reach out to us through our direct verified channels below.
+            Have a query regarding deposits, withdrawals or the creation of your own secured gaming ID? Contact us via our verified channels below:
           </p>
         </section>
 
@@ -82,10 +82,10 @@ export default function ContactUsPage() {
                 <span className="text-[34px]">💬</span>
                 <div className="flex flex-col gap-1.5">
                   <h3 className="font-rajdhani font-bold text-[18px] text-[#c40000] uppercase tracking-[0.5px]">
-                    Official WhatsApp Support
+                    WhatsApp Support
                   </h3>
                   <p className="text-gray-500 text-[13px] leading-relaxed">
-                    Get instant assistance for ID creation, OTP codes, and payout processing in under 5 minutes.
+                    Get instant help and support for your ID creation, OTP queries, and payouts processed within 5 minutes.
                   </p>
                   <a
                     href="https://wa.me/916026703858?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20started."
@@ -106,7 +106,7 @@ export default function ContactUsPage() {
                     Corporate Email
                   </h3>
                   <p className="text-gray-500 text-[13px] leading-relaxed">
-                    For VIP queries, sponsorships, and business partnerships, feel free to drop us an email.
+                    For VIP treatment, sponsorships, and business inquiries, email us and we will get back to you shortly.
                   </p>
                   <a
                     href="mailto:Support@reddysports.co"
@@ -125,7 +125,7 @@ export default function ContactUsPage() {
                     Operating Hours
                   </h3>
                   <p className="text-gray-500 text-[13px] leading-relaxed">
-                    We are online and ready to assist you <b>24 hours a day, 7 days a week, 365 days a year</b>.
+                    Our customer support executives are available 24/7, 365 days a year to provide you with the help you need.
                   </p>
                 </div>
               </div>
@@ -186,12 +186,12 @@ export default function ContactUsPage() {
                       id="subject"
                       value={subject}
                       onChange={(e) => setSubject(e.target.value)}
-                      className="bg-gray-50 border border-gray-200 focus:border-[#c40000] focus:bg-white rounded-lg py-2.5 px-4 text-gray-800 text-[13.5px] outline-none transition-all cursor-pointer font-semibold"
+                      className="bg-gray-50 border border-gray-200 focus:border-[#c40000] focus:bg-white rounded-lg py-2.5 px-4 text-gray-800 text-[13.5px] outline-none transition-all cursor-pointer"
                     >
                       <option value="Get Online ID">Get Online ID</option>
-                      <option value="Deposit Query">Deposit Issue</option>
-                      <option value="Withdrawal Request">Withdrawal Issue</option>
-                      <option value="VIP Program Inquiry">VIP Club Inquiry</option>
+                      <option value="Deposit Issue">Deposit Issue</option>
+                      <option value="Withdrawal Issue">Withdrawal Issue</option>
+                      <option value="VIP Club Inquiry">VIP Club Inquiry</option>
                       <option value="Technical Support">Technical Support</option>
                     </select>
                   </div>
@@ -226,7 +226,7 @@ export default function ContactUsPage() {
                 <button
                   type="submit"
                   disabled={success}
-                  className="w-full py-3.5 bg-[#c40000] hover:bg-black text-white font-bold uppercase rounded-lg shadow-md hover:shadow-none transition-all duration-300 tracking-wider text-[13.5px] flex items-center justify-center gap-2 cursor-pointer mt-2"
+                  className="w-full py-3.5 bg-[#c40000] hover:bg-black text-white font-bold uppercase rounded-lg shadow-md hover:shadow-none transition-all duration-300 tracking-wider text-[13.5px]"
                 >
                   🚀 Submit and Connect via WhatsApp
                 </button>
