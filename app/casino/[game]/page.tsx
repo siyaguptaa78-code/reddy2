@@ -17,20 +17,20 @@ const casinoGamesData: Record<string, GameDetails> = {
     title: "Slots Lobbies",
     emoji: "🎰",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
-    description: "Spin to win on thousands of top-tier video slots, featuring classic fruits, ancient mythological legends, adventure quests, and progressive jackpots. Claim free spins and multiply your margins with verified RNG software.",
+    description: "Spin to win on thousands of top video slots with classic fruits, ancient mythology, adventurous quests, and progressive jackpots. Get free spins and increase your odds with trusted RNG software.",
     rulesTitle: "Slot Machines Guidelines",
     rules: [
-      "Select your active slot theme from our catalog (e.g. Book of Dead, Gates of Olympus).",
-      "Configure your bet lines and single spin bet value using simple in-game toggles.",
-      "Click Spin! Scatters grant free spin rounds, while Wilds substitute for all standard payout symbols.",
-      "Enjoy direct cash multipliers when matching rare high-value item arrays."
+      "Choose your preferred active slot theme from our collection (e.g. Book of Dead, Gates of Olympus).",
+      "Set your desired bet lines and cost per spin using intuitive sliders.",
+      "Hit Spin! and land Scatters for free spins, or use Wilds as substitutes for any paying symbols.",
+      "Get direct cash multipliers by landing sets of rare high-value items."
     ]
   },
   roulette: {
     title: "Live Roulette",
     emoji: "🎡",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
-    description: "Follow the dealer spin the wheel in real-time. Place inside bets on single digits or splits, or place high-volume outside bets like red/black, odds/evens, or dozens with immediate visual payout calculation.",
+    description: "Follow the dealer spin the wheel in real-time. Place inside bets on single digits or splits, or place high-volume outside bets like red/black, odds/evens, or dozens with immediat[...]",
     rulesTitle: "Roulette Odds & Betting Arrays",
     rules: [
       "Choose European (single zero) or American (double zero) live streams.",
@@ -157,7 +157,7 @@ export default async function CasinoGamePage({ params }: { params: Promise<{ gam
               ))}
             </ol>
             <p className="text-gray-500 text-[13px] border-t border-white/5 pt-4 mt-2">
-              ♣️ <b>VIP Lounge Limits:</b> Live tables support custom adjustments (min ₹100, max ₹1,00,000 per hand). Speak with your personal manager to modify limit caps.
+              ♣️ <b>VIP Lounge Limits:</b> Tables have bespoke min ₹100 and max ₹1,00,000 per hand limits. Ask your personal manager to adjust your limits.
             </p>
           </div>
         </section>
