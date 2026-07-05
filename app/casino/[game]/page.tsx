@@ -17,7 +17,7 @@ const casinoGamesData: Record<string, GameDetails> = {
     title: "Slots Lobbies",
     emoji: "🎰",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
-    description: "Spin and win real money on thousands of top video slot machines with classic fruits, ancient mythology, adventurous treasure hunts, and progressive jackpots. Get free spins and b[...]",
+    description: "Spin and win real money on thousands of top video slot machines with classic fruits, ancient mythology, adventurous treasure hunts, and progressive jackpots. Get free spins and boosted odds using provably fair algorithms.",
     rulesTitle: "Slot Machines Guidelines",
     rules: [
       "Browse our active slot lobby categories and pick your favorite theme (e.g. Book of Dead, Gates of Olympus)",
@@ -30,7 +30,7 @@ const casinoGamesData: Record<string, GameDetails> = {
     title: "Live Roulette Game",
     emoji: "🎡",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
-    description: "Watch live as the dealer spins the wheel. Place inside bets on individual numbers or splits, or go big with high-volume outside bets on red/black, odds/evens, or dozens with imme[...]",
+    description: "Watch live as the dealer spins the wheel. Place inside bets on individual numbers or splits, or go big with high-volume outside bets on red/black, odds/evens, or dozens with immediate payouts.",
     rulesTitle: "Roulette Odds & Betting Arrays",
     rules: [
       "Pick from our European (single zero) and American (double zero) live roulette feed.",
@@ -55,13 +55,13 @@ const casinoGamesData: Record<string, GameDetails> = {
     title: "Teen Patti Live",
     emoji: "👑",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
-    description: "Enjoy India's ultimate 3-card poker. Teen Patti is highly social and fast-paced. Place blind or seen bets, activate high-limits side cards, and beat the live dealer.",
-    rulesTitle: "Teen Patti Rank Rules & Payouts",
+    description: "Play the popular Indian three-card poker game. Teen Patti is highly social and fast-paced—set blind or seen bets and use high-limit side cards to beat the live dealer.",
+    rulesTitle: "Rank Rules & Payouts",
     rules: [
-      "Each player and dealer gets three cards face down.",
-      "Ranks: Trio (Three of a Kind) is the ultimate hand, followed by Pure Sequence, Sequence, Color, Pair, and High Card.",
-      "Players choose to play 'Blind' (without checking cards) or 'Chaals' (with cards verified).",
-      "Compete directly to beat the dealer's card sequence and secure instant payouts."
+      "Each player and dealer receives three cards face down.",
+      "The possible ranks, from highest to lowest, are: Trio (Three of a Kind), Pure Sequence, Sequence, Color, Pair, and High Card.",
+      "Players must decide whether to play Blind (without looking at their cards) or Chaals (looking at their cards to compete against the dealer’s card sequence).",
+      "Compete directly against the dealer to beat their card sequence and win payouts."
     ]
   }
 };
