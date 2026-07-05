@@ -17,7 +17,7 @@ const casinoGamesData: Record<string, GameDetails> = {
     title: "Slots Lobbies",
     emoji: "🎰",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
-    description: "Spin and win real money on thousands of top video slot machines with classic fruits, ancient mythology, adventurous treasure hunts, and progressive jackpots. Get free spins and boosted odds using provably fair algorithms.",
+    description: "Spin and win real money on thousands of top video slot machines with classic fruits, ancient mythology, adventurous treasure hunts, and progressive jackpots. Get free spins and b[...]",
     rulesTitle: "Slot Machines Guidelines",
     rules: [
       "Browse our active slot lobby categories and pick your favorite theme (e.g. Book of Dead, Gates of Olympus)",
@@ -27,7 +27,7 @@ const casinoGamesData: Record<string, GameDetails> = {
     ]
   },
   roulette: {
-    title: "Live Roulette",
+    title: "Live Roulette Game",
     emoji: "🎡",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
     description: "Watch live as the dealer spins the wheel. Place inside bets on individual numbers or splits, or go big with high-volume outside bets on red/black, odds/evens, or dozens with immediate payouts.",
