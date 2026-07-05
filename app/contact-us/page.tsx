@@ -9,7 +9,7 @@ export default function ContactUsPage() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [subject, setSubject] = useState("Get Online ID");
+  const [subject, setSubject] = useState("ऑनलाइन आईडी बनाएं");
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
   const [success, setSuccess] = useState(false);
@@ -19,22 +19,22 @@ export default function ContactUsPage() {
     setError("");
 
     if (!name || name.trim() === "") {
-      setError("Please enter your Name.");
+      setError("कृपया अपना नाम दर्ज करें।");
       return;
     }
 
     if (!email || email.trim() === "") {
-      setError("Please enter your Email Address.");
+      setError("कृपया अपना ईमेल पता दर्ज करें।");
       return;
     }
 
     if (!phone || phone.trim() === "") {
-      setError("Please enter your Phone Number.");
+      setError("कृपया अपना फोन नंबर दर्ज करें।");
       return;
     }
 
     if (!message || message.trim() === "") {
-      setError("Please write your message.");
+      setError("कृपया अपना संदेश लिखें।");
       return;
     }
 
@@ -42,7 +42,7 @@ export default function ContactUsPage() {
 
     setTimeout(() => {
       const waMsg = encodeURIComponent(
-        `Hello Reddy Anna Book Contact support,\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nSubject: ${subject}\nMessage: ${message}`
+        `नमस्ते Reddy Anna Book समर्थन,\nनाम: ${name}\nईमेल: ${email}\nफोन: ${phone}\nविषय: ${subject}\nसंदेश: ${message}`
       );
       window.open(`https://wa.me/916026703858?text=${waMsg}`, "_blank");
       setSuccess(false);
@@ -62,11 +62,11 @@ export default function ContactUsPage() {
         {/* Header */}
         <section className="px-4 max-w-[900px] w-full mx-auto text-center flex flex-col gap-4">
           <h1 className="text-[#c40000] font-rajdhani font-black text-[42px] md:text-[32px] tracking-[1.5px] uppercase">
-            Contact Reddy Anna Book
+            अपना संपर्क Reddy Anna Book तक पहुँचाएं
           </h1>
           <div className="w-[100px] h-[4px] bg-[#c40000] mx-auto rounded" />
           <p className="text-gray-600 text-[16px] leading-[1.8] mt-2 font-medium">
-            Have a query regarding deposits, withdrawals or the creation of your own secured gaming ID? Contact us via our verified channels below:
+            कृपया निम्नलिखित माध्यमों के माध्यम से हमसे संपर्क करें ताकि हम आपकी जांच कर सकें।
           </p>
         </section>
 
@@ -82,10 +82,10 @@ export default function ContactUsPage() {
                 <span className="text-[34px]">💬</span>
                 <div className="flex flex-col gap-1.5">
                   <h3 className="font-rajdhani font-bold text-[18px] text-[#c40000] uppercase tracking-[0.5px]">
-                    WhatsApp Support
+                    वॉट्सएप समर्थन
                   </h3>
                   <p className="text-gray-500 text-[13px] leading-relaxed">
-                    Get instant help and support for your ID creation, OTP queries, and payouts processed within 5 minutes.
+                    एक आवेदन करें और अपने ऑनलाइन आईडी के निर्माण, ओटीपी और डिपॉज़िट / वितर्जन के माध्यम से प्रतिक्रिया प्राप्त करें।
                   </p>
                   <a
                     href="https://wa.me/916026703858?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20started."
@@ -93,7 +93,7 @@ export default function ContactUsPage() {
                     rel="noopener noreferrer"
                     className="text-[#25D366] font-bold text-[14px] hover:underline mt-1"
                   >
-                    Chat on +91 98646 92258 &rarr;
+                    अब चैट करें +91 98646 92258 पर &rarr;
                   </a>
                 </div>
               </div>
@@ -103,16 +103,16 @@ export default function ContactUsPage() {
                 <span className="text-[34px]">✉️</span>
                 <div className="flex flex-col gap-1.5">
                   <h3 className="font-rajdhani font-bold text-[18px] text-gray-900 uppercase tracking-[0.5px]">
-                    Corporate Email
+                    कॉर्पोरेट ईमेल
                   </h3>
                   <p className="text-gray-500 text-[13px] leading-relaxed">
-                    For VIP treatment, sponsorships, and business inquiries, email us and we will get back to you shortly.
+                    विशेष आवेदनों, वित्तीय सहायता के लिए हमारा ईमेल संपर्क करें।
                   </p>
                   <a
                     href="mailto:Support@reddysports.co"
                     className="text-gray-800 font-bold text-[14px] hover:underline mt-1"
                   >
-                    Support@reddysports.co &rarr;
+                    एक ईमेल पोस्ट करें → Support@reddysports.co
                   </a>
                 </div>
               </div>
@@ -122,10 +122,10 @@ export default function ContactUsPage() {
                 <span className="text-[34px]">🕒</span>
                 <div className="flex flex-col gap-1">
                   <h3 className="font-rajdhani font-bold text-[18px] text-gray-900 uppercase tracking-[0.5px]">
-                    Operating Hours
+                    काम के समय
                   </h3>
                   <p className="text-gray-500 text-[13px] leading-relaxed">
-                    Our customer support executives are available 24/7, 365 days a year to provide you with the help you need.
+                    हम सेवा देने के लिए <b>24/7 खुले रहते हैं।</b>
                   </p>
                 </div>
               </div>
@@ -135,18 +135,18 @@ export default function ContactUsPage() {
             {/* Premium Interactive Contact Form (Right Column) */}
             <div className="lg:col-span-7 bg-white p-8 md:p-6 rounded-2xl shadow-lg border border-gray-150 flex flex-col gap-5 w-full">
               <h2 className="text-[#c40000] font-rajdhani font-bold text-[24px] uppercase tracking-[0.5px]">
-                Send Us A Message
+                हमारे साथ बातचीत करें
               </h2>
               
               <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="flex flex-col gap-1">
-                    <label htmlFor="name" className="text-gray-700 text-[12.5px] font-bold uppercase">Name</label>
+                    <label htmlFor="name" className="text-gray-700 text-[12.5px] font-bold uppercase">नाम</label>
                     <input
                       id="name"
                       type="text"
-                      placeholder="Your Name"
+                      placeholder="आपका नाम"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
                       className="bg-gray-50 border border-gray-200 focus:border-[#c40000] focus:bg-white rounded-lg py-2.5 px-4 text-gray-800 text-[13.5px] outline-none transition-all"
@@ -154,11 +154,11 @@ export default function ContactUsPage() {
                     />
                   </div>
                   <div className="flex flex-col gap-1">
-                    <label htmlFor="email" className="text-gray-700 text-[12.5px] font-bold uppercase">Email</label>
+                    <label htmlFor="email" className="text-gray-700 text-[12.5px] font-bold uppercase">ईमेल</label>
                     <input
                       id="email"
                       type="email"
-                      placeholder="Your Email"
+                      placeholder="आपका ईमेल"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       className="bg-gray-50 border border-gray-200 focus:border-[#c40000] focus:bg-white rounded-lg py-2.5 px-4 text-gray-800 text-[13.5px] outline-none transition-all"
@@ -169,11 +169,11 @@ export default function ContactUsPage() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="flex flex-col gap-1">
-                    <label htmlFor="phone" className="text-gray-700 text-[12.5px] font-bold uppercase">Phone Number</label>
+                    <label htmlFor="phone" className="text-gray-700 text-[12.5px] font-bold uppercase">संपर्क करें</label>
                     <input
                       id="phone"
                       type="tel"
-                      placeholder="10-Digit Mobile Number"
+                      placeholder="10-अंकीय मोबाइल नंबर"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
                       className="bg-gray-50 border border-gray-200 focus:border-[#c40000] focus:bg-white rounded-lg py-2.5 px-4 text-gray-800 text-[13.5px] outline-none transition-all"
@@ -181,28 +181,28 @@ export default function ContactUsPage() {
                     />
                   </div>
                   <div className="flex flex-col gap-1">
-                    <label htmlFor="subject" className="text-gray-700 text-[12.5px] font-bold uppercase">Subject</label>
+                    <label htmlFor="subject" className="text-gray-700 text-[12.5px] font-bold uppercase">विषय</label>
                     <select
                       id="subject"
                       value={subject}
                       onChange={(e) => setSubject(e.target.value)}
                       className="bg-gray-50 border border-gray-200 focus:border-[#c40000] focus:bg-white rounded-lg py-2.5 px-4 text-gray-800 text-[13.5px] outline-none transition-all cursor-pointer"
                     >
-                      <option value="Get Online ID">Get Online ID</option>
-                      <option value="Deposit Issue">Deposit Issue</option>
-                      <option value="Withdrawal Issue">Withdrawal Issue</option>
-                      <option value="VIP Club Inquiry">VIP Club Inquiry</option>
-                      <option value="Technical Support">Technical Support</option>
+                      <option value="ऑनलाइन आईडी बनाएं">ऑनलाइन आईडी बनाएं</option>
+                      <option value="डिपॉज़िट की समस्या है">डिपॉज़िट की समस्या है</option>
+                      <option value="वितर्जन की समस्या है">वितर्जन की समस्या है</option>
+                      <option value="वीपी क्लब के बारे में प्रश्न">वीपी क्लब के बारे में प्रश्न</option>
+                      <option value="टकनिकी सहायता">टकनिकी सहायता</option>
                     </select>
                   </div>
                 </div>
 
                 <div className="flex flex-col gap-1">
-                  <label htmlFor="message" className="text-gray-700 text-[12.5px] font-bold uppercase">Message</label>
+                  <label htmlFor="message" className="text-gray-700 text-[12.5px] font-bold uppercase">संदेश</label>
                   <textarea
                     id="message"
                     rows={4}
-                    placeholder="Write your message here..."
+                    placeholder="अपना संदेश यहाँ लिखें..."
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     className="bg-gray-50 border border-gray-200 focus:border-[#c40000] focus:bg-white rounded-lg py-2.5 px-4 text-gray-800 text-[13.5px] outline-none transition-all resize-none"
@@ -218,8 +218,8 @@ export default function ContactUsPage() {
 
                 {success && (
                   <div className="bg-green-50 text-green-600 border border-green-100 rounded-lg p-3 text-[12.5px] font-semibold text-center flex flex-col gap-0.5">
-                    <span>✅ Dispatching Form Details!</span>
-                    <span className="text-[11.5px] text-green-500 font-normal">Opening WhatsApp support to secure your ticket ID...</span>
+                    <span>✅ फॉर्म विवरण भेजा जा रहा है!</span>
+                    <span className="text-[11.5px] text-green-500 font-normal">आपका टिकट आईडी सुरक्षित करने के लिए वॉट्सएप समर्थन खोला जा रहा है...</span>
                   </div>
                 )}
 
@@ -228,7 +228,7 @@ export default function ContactUsPage() {
                   disabled={success}
                   className="w-full py-3.5 bg-[#c40000] hover:bg-black text-white font-bold uppercase rounded-lg shadow-md hover:shadow-none transition-all duration-300 tracking-wider text-[13.5px]"
                 >
-                  🚀 Submit and Connect via WhatsApp
+                  🚀 अब भेजें और वॉट्सएप के माध्यम से संपर्क करें
                 </button>
 
               </form>
