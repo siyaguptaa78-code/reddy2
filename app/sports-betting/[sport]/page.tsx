@@ -19,7 +19,7 @@ const sportsData: Record<string, SportDetails> = {
     title: "Cricket Betting",
     emoji: "🏏",
     image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
-    description: "Welcome to the ultimate Cricket Betting arena on Reddy Anna Book. Bet ball-by-ball, predict total wickets, session scores, runs over-by-over, and match winners on major tournaments like IPL, ICC World Cups, Big Bash, and T20 International Series.",
+    description: "Welcome to the finest Cricket Betting arena on Reddy Anna Book. Bet ball-by-ball, predict total wickets, session scores, runs over-by-over, and match winners on major tournaments like IPL, ICC World Cups, Big Bash, and T20 International Series.",
     guideTitle: "How to Place Cricket Bets on Reddy Anna Book",
     guidePoints: [
       "Obtain your verified Reddy Anna Cricket ID from our WhatsApp support team.",
@@ -33,7 +33,7 @@ const sportsData: Record<string, SportDetails> = {
     title: "Football Betting",
     emoji: "⚽",
     image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Football-Betting-1024x683.jpg",
-    description: "Access high-speed global soccer markets on Reddy Anna. Bet on all major national and international leagues including English Premier League, UEFA Champions League, La Liga, Serie A, and the FIFA World Cup.",
+    description: "Access high-speed global soccer markets on Reddy Anna. Bet on all major national and international leagues including English Premier League, UEFA Champions League, La Liga, Serie A, and more.",
     guideTitle: "Premium Soccer Betting Guide",
     guidePoints: [
       "Select Football from the main navigation menu or sports tab.",
@@ -47,7 +47,7 @@ const sportsData: Record<string, SportDetails> = {
     title: "Tennis Betting",
     emoji: "🎾",
     image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Tennis-Betting-1024x683.png",
-    description: "Tennis matches settle extremely fast compared to other sports. Place live bets on grand slams like Wimbledon, US Open, Roland Garros, and Australian Open, or follow year-round ATP and WTA tour matches.",
+    description: "Tennis matches settle extremely fast compared to other sports. Place live bets on grand slams like Wimbledon, US Open, Roland Garros, and Australian Open, or follow year-round ATP and WTA tournaments.",
     guideTitle: "Astra-tier Tennis Odds Guidelines",
     guidePoints: [
       "Tennis features rapid points fluctuation; make sure to bet using the lightweight Reddy Anna app.",
@@ -60,7 +60,7 @@ const sportsData: Record<string, SportDetails> = {
     title: "Kabaddi Betting",
     emoji: "🤼",
     image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-1024x683.jpg",
-    description: "Kabaddi is India's beloved indigenous sport, now a global betting phenomenon. Follow the Pro Kabaddi League (PKL) closely and place high-value bets on raid points, tackle points, and super-tackles.",
+    description: "Kabaddi is India's beloved indigenous sport, now a global betting phenomenon. Follow the Pro Kabaddi League (PKL) closely and place high-value bets on raid points, tackle points, and match outcomes.",
     guideTitle: "Kabaddi Betting Strategies on Reddy Book",
     guidePoints: [
       "Track live defensive formations and key raiders to predict match margins.",
@@ -73,7 +73,7 @@ const sportsData: Record<string, SportDetails> = {
     title: "Horse Racing Betting",
     emoji: "🏇",
     image: "https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Betting-Platform-1024x597.jpg",
-    description: "Experience the thrill of the tracks. Place real-time bets on premium national and international horse racing events. Choose from Win, Place, Each-Way, or forecast betting cards with high margins.",
+    description: "Experience the thrill of the tracks. Place real-time bets on premium national and international horse racing events. Choose from Win, Place, Each-Way, or forecast betting cards with dynamic odds.",
     guideTitle: "Official Guide to Derby & Race Betting",
     guidePoints: [
       "Select active horse race events from the dashboard categories.",
@@ -86,7 +86,7 @@ const sportsData: Record<string, SportDetails> = {
     title: "Basketball Betting",
     emoji: "🏀",
     image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Basketball-Betting-1024x683.jpg",
-    description: "Follow the NBA, EuroLeague, and major basketball tournaments worldwide. Basketball offers extremely dynamic point-spread betting, total points over/under, and quarter-by-quarter session betting cards.",
+    description: "Follow the NBA, EuroLeague, and major basketball tournaments worldwide. Basketball offers extremely dynamic point-spread betting, total points over/under, and quarter-by-quarter session bets.",
     guideTitle: "Sleek Basketball Spreads & Options",
     guidePoints: [
       "Basketball leagues present quick scoring runs; use fast inputs to confirm your slip before lines shift.",
@@ -148,7 +148,7 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
                     href={`https://wa.me/916026703858?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20a%20${encodeURIComponent(currentSport.title)}%20ID%20now.`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-8 py-3.5 bg-gradient-to-r from-ra-gold to-ra-gold-dark hover:from-white hover:to-white hover:text-ra-crimson text-black font-extrabold rounded-lg shadow-lg hover:shadow-none transition-all flex-grow sm:flex-grow-0 text-center"
+                    className="px-8 py-3.5 bg-gradient-to-r from-ra-gold to-ra-gold-dark hover:from-white hover:to-white hover:text-ra-crimson text-black font-extrabold rounded-lg shadow-lg hover:shadow-xl transition-all"
                   >
                     Get {currentSport.title} ID
                   </a>
