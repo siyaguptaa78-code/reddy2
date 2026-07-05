@@ -30,13 +30,13 @@ const casinoGamesData: Record<string, GameDetails> = {
     title: "Live Roulette",
     emoji: "🎡",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
-    description: "Follow the dealer spin the wheel in real-time. Place inside bets on single digits or splits, or place high-volume outside bets like red/black, odds/evens, or dozens with immediat[...]",
+    description: "Watch live as the dealer spins the wheel. Place inside bets on individual numbers or splits, or go big with high-volume outside bets on red/black, odds/evens, or dozens with immediate payouts.",
     rulesTitle: "Roulette Odds & Betting Arrays",
     rules: [
-      "Choose European (single zero) or American (double zero) live streams.",
-      "Inside Bets (Straight Up, Split, Corner) offer maximum payouts up to 35:1.",
-      "Outside Bets (Red/Black, Odd/Even, Dozens) offer lower risks and 1:1 or 2:1 returns.",
-      "Lock in your predictions before the dealer announces 'No More Bets' and drops the white ball."
+      "Pick from our European (single zero) and American (double zero) live roulette feed.",
+      "Inside bets offer the thrill of a 36x payout on straight-up numbers; only risk your chips when betting a single digit, split, or corner.",
+      "Outside bets on evens/odds, reds/blacks, and dozens have more moderate payouts and a better chance of cashing out.",
+      "Always set your predictions before the dealer shouts 'No more bets' and drops the white ball on the wheel."
     ]
   },
   poker: {
@@ -157,7 +157,7 @@ export default async function CasinoGamePage({ params }: { params: Promise<{ gam
               ))}
             </ol>
             <p className="text-gray-500 text-[13px] border-t border-white/5 pt-4 mt-2">
-              ♣️ <b>VIP Lounge Limits:</b> Tables have bespoke minimum ₹100 and maximum ₹1,00,000 per hand limits. Ask your personal manager to customise your account limits.
+              ♣️ <b>VIP Lounge Limits:</b> Table limits start at ₹100 minimum and ₹1,00,000 maximum per hand. Speak with your personal manager to set custom account limits.
             </p>
           </div>
         </section>
