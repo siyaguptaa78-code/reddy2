@@ -17,13 +17,13 @@ const casinoGamesData: Record<string, GameDetails> = {
     title: "Slots Lobbies",
     emoji: "🎰",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
-    description: "Spin to win on thousands of top video slots with classic fruits, ancient mythology, adventurous quests, and progressive jackpots. Get free spins and increase your odds with trusted RNG software.",
+    description: "Spin and win real money on thousands of top video slot machines with classic fruits, ancient mythology, adventurous treasure hunts, and progressive jackpots. Get free spins and boosted odds using provably fair algorithms.",
     rulesTitle: "Slot Machines Guidelines",
     rules: [
-      "Choose your preferred active slot theme from our collection (e.g. Book of Dead, Gates of Olympus).",
-      "Set your desired bet lines and cost per spin using intuitive sliders.",
-      "Hit Spin! and land Scatters for free spins, or use Wilds as substitutes for any paying symbols.",
-      "Get direct cash multipliers by landing sets of rare high-value items."
+      "Browse our active slot lobby categories and pick your favorite theme (e.g. Book of Dead, Gates of Olympus).",
+      "Use easy-to-use sliders to set your preferred bet lines and cost per spin.",
+      "Hit Spin! and collect Scatter payouts as free spins or use Wilds as substitutes for any symbols.",
+      "Score direct cash bonuses with sets of rare high-value icons."
     ]
   },
   roulette: {
@@ -157,7 +157,7 @@ export default async function CasinoGamePage({ params }: { params: Promise<{ gam
               ))}
             </ol>
             <p className="text-gray-500 text-[13px] border-t border-white/5 pt-4 mt-2">
-              ♣️ <b>VIP Lounge Limits:</b> Tables have bespoke min ₹100 and max ₹1,00,000 per hand limits. Ask your personal manager to adjust your limits.
+              ♣️ <b>VIP Lounge Limits:</b> Tables have bespoke minimum ₹100 and maximum ₹1,00,000 per hand limits. Ask your personal manager to customise your account limits.
             </p>
           </div>
         </section>
