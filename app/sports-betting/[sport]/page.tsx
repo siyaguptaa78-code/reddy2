@@ -33,14 +33,14 @@ const sportsData: Record<string, SportDetails> = {
     title: "Football Betting",
     emoji: "⚽",
     image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Football-Betting-1024x683.jpg",
-    description: "Access high-speed global soccer markets on Reddy Anna. Bet on all major national and international leagues including English Premier League, UEFA Champions League, La Liga, Serie A, and more.",
+    description: "Bet on high speed global soccer markets at Reddy Anna. We offer best odds for all national and international leagues including English Premier league, UEFA Champions league, La Liga, Serie A, and many more.",
     guideTitle: "Premium Soccer Betting Guide",
     guidePoints: [
-      "Select Football from the main navigation menu or sports tab.",
-      "Choose from categories: Live Matches, Virtual Leagues, or Premium charts.",
-      "Bet on diverse markets like Full-time Winner (1x2), Total Goals Over/Under, Corners, or Match Handicap.",
-      "Enjoy premium low-latency updates during intense live gameplay.",
-      "Receive 100% same-day secure UPI payouts directly to your digital bank ledger."
+      "Select Football from the main menu/navigation or sport category tab.",
+      "Choose your preferred betting markets including Live matches, Virtual leagues, or Premium odds charts.",
+      "Place bets on 1x2, Full-Time Winners, Over/Under Goals, Corners, or Handicap markets.",
+      "Betting comes with enhanced low latency for premium live football action",
+      "Same-day payouts of 100% winning bets to your UPI wallet/accounts."
     ]
   },
   "tennis-betting": {
@@ -158,7 +158,7 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
                     rel="noopener noreferrer"
                     className="px-8 py-3.5 bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-extrabold rounded-lg transition-all flex-grow sm:flex-grow-0 text-center"
                   >
-                    💬 Live Chat support
+                    💬 Chat support
                   </a>
                 </div>
               </div>
@@ -269,7 +269,7 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
               ))}
             </ol>
             <p className="text-gray-500 text-[13.5px] border-t border-gray-100 pt-4 mt-2">
-              ⚠️ <b>Responsible Gaming:</b> Betting involves financial risk. Please play responsibly, stay within your set limits, and ensure you are 18+ years of age.
+              ⚠️ <b>Responsible Gambling Notice:</b> Gambling can be addictive and it involves risks. Please make sure that you only bet with amounts that you can afford and that you do not exceed your limits. You must be at least 18 years old to register or place a bet.
             </p>
           </div>
         </section>
