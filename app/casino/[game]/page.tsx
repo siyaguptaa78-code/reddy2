@@ -20,10 +20,10 @@ const casinoGamesData: Record<string, GameDetails> = {
     description: "Spin and win real money on thousands of top video slot machines with classic fruits, ancient mythology, adventurous treasure hunts, and progressive jackpots. Get free spins and boosted odds using provably fair algorithms.",
     rulesTitle: "Slot Machines Guidelines",
     rules: [
-      "Browse our active slot lobby categories and pick your favorite theme (e.g. Book of Dead, Gates of Olympus).",
-      "Use easy-to-use sliders to set your preferred bet lines and cost per spin.",
-      "Hit Spin! and collect Scatter payouts as free spins or use Wilds as substitutes for any symbols.",
-      "Score direct cash bonuses with sets of rare high-value icons."
+      "Browse our active slot lobby categories and pick your favorite theme (e.g. Book of Dead, Gates of Olympus)",
+      "Use easy-to-use sliders to set your preferred bet lines and cost per spin",
+      "Hit Spin! and collect Scatter payouts as free spins or use Wilds as substitutes for any symbols",
+      "Score direct cash bonuses with sets of rare high-value icons"
     ]
   },
   roulette: {
