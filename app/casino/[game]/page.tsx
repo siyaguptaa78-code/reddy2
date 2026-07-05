@@ -30,7 +30,7 @@ const casinoGamesData: Record<string, GameDetails> = {
     title: "Live Roulette Game",
     emoji: "🎡",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
-    description: "Watch live as the dealer spins the wheel. Place inside bets on individual numbers or splits, or go big with high-volume outside bets on red/black, odds/evens, or dozens with immediate payouts.",
+    description: "Watch live as the dealer spins the wheel. Place inside bets on individual numbers or splits, or go big with high-volume outside bets on red/black, odds/evens, or dozens with imme[...]",
     rulesTitle: "Roulette Odds & Betting Arrays",
     rules: [
       "Pick from our European (single zero) and American (double zero) live roulette feed.",
@@ -43,13 +43,12 @@ const casinoGamesData: Record<string, GameDetails> = {
     title: "Premium Poker",
     emoji: "🃏",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
-    description: "Show your skill on active Texas Hold'em and Omaha tables. Play live multiplayer tournaments, bluffs, cash tables, or VIP games with players across the country.",
-    rulesTitle: "Official Hand Hierarchies & Play Rules",
+    description: "Showcase your skills on dynamic Texas Hold'em and Omaha tables. Experience live tournaments, bluff, compete in cash games and VIP rooms with multi-country players.",
+    rulesTitle: "Official Hand Rankings & Rules",
     rules: [
-      "Texas Hold'em gives players two private cards and five face-up community cards.",
-      "Rounds: Pre-flop, Flop, Turn, River. Bets: Check, Fold, Call, or Raise.",
-      "Form the best possible 5-card combination using community and private cards.",
-      "High Hands: Royal Flush is absolute king, followed by Straight Flush, Four of a Kind, and Full House."
+      "Texas Holdem is played using two hole cards and five community cards.",
+      "The betting rounds are pre-flop, flop, turn, river. Check, fold, call or raise. Make the best five-card poker hand using your hole cards and the community cards.",
+      "The best hand rankings include Royal Flush, Straight Flush, Four of a Kind, Full House, and more."
     ]
   },
   "teen-patti": {
