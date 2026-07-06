@@ -22,11 +22,11 @@ const sportsData: Record<string, SportDetails> = {
     description: "Welcome to the finest Cricket Betting arena on Reddy Anna Book. Bet ball-by-ball, predict total wickets, session scores, runs over-by-over, and match winners on major tournaments like IPL, ICC World Cups, Big Bash, and T20 International Series.",
     guideTitle: "How to Place Cricket Bets on Reddy Anna Book",
     guidePoints: [
-      "Obtain your verified Reddy Anna Cricket ID from our WhatsApp support team.",
-      "Navigate to the Cricket Lobbies to see active and upcoming fixtures.",
-      "Check the live-updating odds panels (cells flash yellow on rises, red on drops).",
-      "Tap the odds rate, enter your mock slip value, and confirm your bet instantly.",
-      "Request instant UPI withdrawal for your settled winnings at the end of the match."
+      "Secure your Reddy Anna Cricket ID from the WhatsApp support team",
+      "Choose cricket lobbies to find out all ongoing and upcoming matches",
+      "Use the up-to-date odds panel (cells highlight yellow when increasing or red when decreasing)",
+      "Click on the odds rate, enter your desired value slip, and confirm the bet",
+      "Ask for UPI withdrawal for your winnings settled at the end of the match"
     ]
   },
   "football-betting": {
@@ -60,38 +60,38 @@ const sportsData: Record<string, SportDetails> = {
     title: "Kabaddi Betting",
     emoji: "🤼",
     image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-1024x683.jpg",
-    description: "Kabaddi is India's beloved indigenous sport, now a global betting phenomenon. Follow the Pro Kabaddi League (PKL) closely and place high-value bets on raid points, tackle points, and match outcomes.",
-    guideTitle: "Kabaddi Betting Strategies on Reddy Book",
+    description: "Kabaddi is India's own indigenous sport which has attracted global attention and betting markets. Keep a track of Pro Kabaddi League (PKL) and bet on raid points, tackle points and match odds",
+    guideTitle: "Kabaddi Betting Tips on Reddy Book",
     guidePoints: [
-      "Track live defensive formations and key raiders to predict match margins.",
-      "Select from PKL match arrays and bet on total raid points or half-time winner.",
-      "Our exchange guarantees secure cashouts even during high-traffic final rounds.",
-      "Connect with our WhatsApp helpdesk to claim your special Kabaddi season bonuses."
+      "Keep track of the defensive set-ups and star raiders to predict margins of victory in matches.",
+      "Go for arrays in PKL matches to bet on total raid points or half-time winners",
+      "Our exchange also offers secure cashout facilities even if you entered the market during the final minutes of the match",
+      "WhatsApp our helpdesk to claim your exclusive Kabaddi season bonuses"
     ]
   },
   "horse-betting": {
     title: "Horse Racing Betting",
     emoji: "🏇",
     image: "https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Betting-Platform-1024x597.jpg",
-    description: "Experience the thrill of the tracks. Place real-time bets on premium national and international horse racing events. Choose from Win, Place, Each-Way, or forecast betting cards with dynamic odds.",
+    description: "Get the thrill of the track with us. We offer live betting on premium national and international horse racing events. Win, Place, Each-Way, or forecast betting cards with enhanced odds.",
     guideTitle: "Official Guide to Derby & Race Betting",
     guidePoints: [
-      "Select active horse race events from the dashboard categories.",
-      "Review the horse names, jockey statistics, track conditions, and starting odds.",
-      "Register a secure ID specifically configured for high-limits VIP racing pools.",
-      "Enjoy instant same-hour withdrawal settlement once the racing judges confirm the results."
+      "Pick your favorite horse race events from the dashboard categories.",
+      "Scrutinize the horse names, jockey stats, track conditions, and odds.",
+      "Register your unique betting ID configured for high-limits VIP racing pools.",
+      "Furthermore, withdraw your winning proceeds at the same hour after the racing judges announce the results."
     ]
   },
   "basketball-betting": {
     title: "Basketball Betting",
     emoji: "🏀",
     image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Basketball-Betting-1024x683.jpg",
-    description: "Follow the NBA, EuroLeague, and major basketball tournaments worldwide. Basketball offers extremely dynamic point-spread betting, total points over/under, and quarter-by-quarter session bets.",
-    guideTitle: "Sleek Basketball Spreads & Options",
+    description: "Follow NBA, Euroleague, and other basketball competitions. Basketball betting involves highly liquid point-spread possibilities, total points over/under, and session-by-session betting.",
+    guideTitle: "Sleek Basketball spreads & options",
     guidePoints: [
-      "Basketball leagues present quick scoring runs; use fast inputs to confirm your slip before lines shift.",
-      "Place spreads bets or predict total game points (e.g. over/under 210.5).",
-      "Activate a verified Reddy Anna ID to unlock zero-delay basketball stream arrays."
+      "Basketball league involves intense scoring runs, so keep an eye on rapid input options to lock your desired slip before the line moves.",
+      "Make spreads bets or guess the game's overall points (e.g., over/under 210.5).",
+      "Activate a legitimate Reddy Anna ID to gain free access to the no-delay basketball stream arrays"
     ]
   }
 };
@@ -269,7 +269,7 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
               ))}
             </ol>
             <p className="text-gray-500 text-[13.5px] border-t border-gray-100 pt-4 mt-2">
-              ⚠️ <b>Responsible Gambling Notice:</b> Gambling can be addictive and it involves risks. Please make sure that you only bet with amounts that you can afford and that you do not exceed your limits. You must be at least 18 years old to register or place a bet.
+              ⚠️ Gambling can be addictive and carries inherent risks. It is crucial to only bet with money you are prepared to lose and never risk more than you can afford to. Reddy Book is intended for individuals who are 18 years of age or older.
             </p>
           </div>
         </section>

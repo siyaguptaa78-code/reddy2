@@ -19,7 +19,7 @@ export default function AboutUsPage() {
           </h1>
           <div className="w-[100px] h-[4px] bg-[#c40000] mx-auto rounded" />
           <p className="text-gray-600 text-[16px] leading-[1.8] mt-2 font-medium">
-            India’s leading and most trustworthy supplier of online gaming IDs and live sports betting exchanges. Accredited in 2015 and with more than 1,000,000 happy users.
+            India's biggest and most trustworthy supplier of online gaming IDs and live sports betting exchanges. Accredited in 2015 and with more than 1,000,000 happy users.
           </p>
         </section>
 
@@ -36,13 +36,10 @@ export default function AboutUsPage() {
             </div>
             <div className="flex flex-col gap-5 items-start">
               <h2 className="text-[#c40000] font-rajdhani font-bold text-[28px] md:text-[24px] uppercase">
-                Decade of Sports Betting Experience
+                Sports Bet Experience for a Decade
               </h2>
               <p className="text-gray-600 text-[14.5px] leading-[1.8] font-sans">
-                Reddy Anna Book was created to establish an alternative source of sports betting without any dishonest agents in the chain and to provide Indian punters with the most transparent platform to engage in live betting and casino games.
-              </p>
-              <p className="text-gray-600 text-[14.5px] leading-[1.8] font-sans">
-                In the last decade, we have developed unique digital interfaces for the most popular sportsbooks (Cricbet99, Laser247, Lotus365) and an extensive automated banking panel for fast money withdrawals. Now, our brand is recognized as the most trusted source in the sports betting arena with high odds and first-rate customer support.
+                Reddy Anna Book was created to provide an alternative source of sports betting without any dishonest agents in the chain and give Indian punters the best opportunity to participate in live betting and casinos. During the last decade, we have invented unique interfaces for the most popular sportsbooks (Cricbet99, Laser247, Lotus365) and an extended automated banking panel for fast money withdrawal. Now our brand is known as the most trustworthy source in sports betting with high odds and excellent customer care.
               </p>
               <a
                 href="https://wa.me/916026703858?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20started."
@@ -60,19 +57,19 @@ export default function AboutUsPage() {
         <section className="px-4 max-w-[1100px] w-full mx-auto py-4">
           <div className="flex flex-col gap-4 text-center mb-8">
             <h2 className="text-[#c40000] font-rajdhani font-bold text-[30px] uppercase">
-              Our Pillars of Excellence
+              Our Corporate Principles
             </h2>
             <p className="text-gray-500 text-[15px] max-w-[650px] mx-auto">
-              Our corporate promises ensure that our punters can enjoy the most liquid exchange, quick money withdrawal options, and top-notch customer support 24/7. Here are our main advantages:
+              Our corporate principles guarantee that punters can enjoy the most liquid exchange, fastest money withdrawal, and customer support 24/7. Below are some of our main advantages:
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "100% Safe Ledgers", desc: "All the money stored in your account, open bets, and total deposit volumes are protected by SSL coding. There are no instances of stolen credits from the system." },
-              { title: "Fast-withdraw Policy", desc: "No more waiting for your withdrawal requests to be approved. We offer UPI/IMPS instant money withdrawal system that delivers the cash to your account within 30 minutes." },
-              { title: "High Liquidity Exchanges", desc: "Especially for popular events, we offer the highest betting limits. Our liquidity allows our VIP punters to make deposits with little risk of clogging." },
-              { title: "24/7 Customer Support", desc: "Our managers are always available via WhatsApp, Telegram, and direct calls to assist you with your queries." }
+              { title: "100% Safe Ledgers", desc: "All the money on your account, open positions, and total deposits are saved with an additional layer of security as all the data is protected by SSL coding, and there are no theft cases from the system." },
+              { title: "Fast-withdraw Policy", desc: "You will not wait for the confirmation that your application for withdrawal has been accepted. Our UPI/IMPS instant money withdrawal system transfers the money to your account within 30 minutes." },
+              { title: "High Liquidity Exchanges", desc: "For popular events, we provide the highest betting limits. For example, our liquidity allows our VIP punters to make deposits without the fear of clogging." },
+              { title: "24/7 Customer Support", desc: "Our managers are always available to answer your questions via WhatsApp, Telegram, and calls." }
             ].map((pillar, idx) => (
               <div key={idx} className="bg-white p-6 rounded-xl border border-gray-100 shadow-md text-left flex flex-col gap-2">
                 <h3 className="font-rajdhani font-bold text-[18px] text-[#c40000] uppercase">

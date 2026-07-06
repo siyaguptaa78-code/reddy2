@@ -27,7 +27,11 @@ export default function AppDownloadPage() {
                 Fast Live Odds, Same-day UPI Withdrawals, Zero Lag
               </h3>
               <p className="text-gray-600 text-[15px] leading-[1.8]">
-                Get the ultimate online betting experience directly in the palm of your hand. The official <b>Reddy Anna App</b> is lightweight, fully optimized for low bandwidth, and loaded with advanced security features like biometrics and OTP logins. Bet on live cricket, football leagues, kabaddi, or spin slot games instantly without opening any browser.
+                Have a great betting experience through the official Reddy anna
+                app in your mobile phone. This application comes as a light
+                version and has enhanced security features such as biometric and
+                otp login. You can bet on live cricket, football leagues,
+                kabaddi, and slot games without using a browser.
               </p>
 
               <div className="flex flex-wrap gap-4 w-full text-[13.5px] font-bold uppercase tracking-wider mt-2">
@@ -66,7 +70,7 @@ export default function AppDownloadPage() {
         <section className="px-4 max-w-[1240px] w-full mx-auto">
           <div className="bg-[#0f1923] text-white rounded-3xl p-10 md:p-6 border border-ra-gold/20 shadow-2xl">
             <h2 className="text-ra-gold font-poppins font-black text-[30px] md:text-[24px] uppercase text-center mb-8 tracking-wide">
-              How To Install Reddy Anna App on Your Device
+              Reddy Annappayi app can be downloaded on your mobile device as follows:
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -80,7 +84,7 @@ export default function AppDownloadPage() {
                   Download File
                 </h3>
                 <p className="text-gray-400 text-[13.5px] leading-relaxed">
-                  Click the Android or iOS download action. Connect on WhatsApp to get the verified direct download link securely from our customer service thread.
+                  Click on the android or iOS download option. Connect on WhatsApp to get the verified direct download link from our customer executives securely.
                 </p>
               </div>
 
@@ -93,7 +97,7 @@ export default function AppDownloadPage() {
                   Allow Unknown Sources
                 </h3>
                 <p className="text-gray-400 text-[13.5px] leading-relaxed">
-                  Go to your mobile device <b>Settings</b> &rarr; <b>Security</b> and check <b>&ldquo;Allow Installation of Apps from Unknown Sources&rdquo;</b> for the APK sheet.
+                  Go to your mobile security settings and allow installation from unknown sources to permit the APK sheet.
                 </p>
               </div>
 
@@ -103,10 +107,10 @@ export default function AppDownloadPage() {
                   3
                 </span>
                 <h3 className="font-rajdhani font-bold text-[19px] uppercase text-white">
-                  Install &amp; Log In
+                  Install and Login
                 </h3>
                 <p className="text-gray-400 text-[13.5px] leading-relaxed">
-                  Open the downloaded <b>.apk</b> file, click Install, open the Reddy Anna App launcher, and use your secure Reddy Anna Book Login credentials!
+                  Click on the downloaded .apk file, hit install, open the reddy anna app launcher, and login with your secure reddy anna book login!
                 </p>
               </div>
 
@@ -129,18 +133,18 @@ export default function AppDownloadPage() {
         <section className="px-4 max-w-[1240px] w-full mx-auto">
           <div className="flex flex-col gap-6 items-center text-center">
             <h2 className="text-[#c40000] font-rajdhani font-bold text-[32px] tracking-[1px] uppercase">
-              Exclusive In-App Features
+              Exclusive In-App features
             </h2>
             <p className="text-gray-600 text-[15px] max-w-[700px] mx-auto">
-              Our mobile platform provides dynamic functionalities that aren&apos;t fully supported on standard browser lobbies:
+              Our mobile app provides with unique features that are not available on other browser platforms
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full mt-6 text-left">
               {[
-                { emoji: "🔔", title: "Real-time Alerts", desc: "Get immediate sound flashes on important cricket match odds variations and score changes." },
-                { emoji: "⚡", title: "Rapid Slip Placement", desc: "Lock in live match odds instantly without dealing with buffering or loading spinners." },
-                { emoji: "💳", title: "1-Click UPI Transactions", desc: "Initiate deposits and request same-day withdrawals directly through secure integrated wallets." },
-                { emoji: "💬", title: "24/7 Native Chat support", desc: "Access verified direct WhatsApp customer service threads anytime within the application launcher." }
+                { emoji: "🔔", title: "Bell Icon", desc: "Get notified on WhatsApp of major cricket match odds fluctuations and scores with live sound alerts" },
+                { emoji: "⚡", title: "Speedy Slips", desc: "Make rapid live match odds modifications without waiting for any buffer loading or spinner" },
+                { emoji: "💳", title: "UPI 1-Click", desc: "Make instant deposits and raise same-day withdrawal requests with the integrated wallet" },
+                { emoji: "💬", title: "24/7 Native Chat support", desc: "WhatsApp verified customer assistance is available directly on your mobile in-app launcher!" }
               ].map((ft, idx) => (
                 <div key={idx} className="bg-white p-6 rounded-2xl border border-gray-100 shadow-md flex flex-col gap-3">
                   <span className="text-[32px]">{ft.emoji}</span>

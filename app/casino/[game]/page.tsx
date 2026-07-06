@@ -17,13 +17,13 @@ const casinoGamesData: Record<string, GameDetails> = {
     title: "Slots Lobbies",
     emoji: "🎰",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
-    description: "Spin and win real money on thousands of top video slot machines with classic fruits, ancient mythology, adventurous treasure hunts, and progressive jackpots. Get free spins and b[...]",
+    description: "Win real money on thousands of popular video slots with fruits, ancient mythology, adventurous treasure hunts, and progressive jackpots. Get free spins and b[...]",
     rulesTitle: "Slot Machines Guidelines",
     rules: [
-      "Browse our active slot lobby categories and pick your favorite theme (e.g. Book of Dead, Gates of Olympus)",
-      "Use easy-to-use sliders to set your preferred bet lines and cost per spin",
-      "Hit Spin! and collect Scatter payouts as free spins or use Wilds as substitutes for any symbols",
-      "Score direct cash bonuses with sets of rare high-value icons"
+      "Our active slot lobbies are categorized, allowing you to choose between various themes such as Book of Dead, Gates of Olympus",
+      "Use intuitive sliders to define your desired bet lines and cost per spin",
+      "Hit the Spin! button and collect your Scatter payouts as free spins or substitute symbols with your Wilds,",
+      "land direct cash bonuses with sets of unique high paying icons"
     ]
   },
   roulette: {
@@ -46,22 +46,21 @@ const casinoGamesData: Record<string, GameDetails> = {
     description: "Showcase your skills on dynamic Texas Hold'em and Omaha tables. Experience live tournaments, bluff, compete in cash games and VIP rooms with multi-country players.",
     rulesTitle: "Official Hand Rankings & Rules",
     rules: [
-      "Texas Holdem is played using two hole cards and five community cards.",
-      "The betting rounds are pre-flop, flop, turn, river. Check, fold, call or raise. Make the best five-card poker hand using your hole cards and the community cards.",
-      "The best hand rankings include Royal Flush, Straight Flush, Four of a Kind, Full House, and more."
+      "Texas Holdem uses two hole cards and five community cards",
+      "Betting rounds are pre-flop, flop, turn, river. Check, fold, call or raise. Best five-card poker hand using your hole cards and the community cards. The best hand rankings include Royal Flush, Straight Flush, Four of a Kind, Full House, etc."
     ]
   },
   "teen-patti": {
     title: "Teen Patti Live",
     emoji: "👑",
     image: "https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg",
-    description: "Play popular Indian three-card poker. Teen Patti is highly social and fast-paced. Set up blind and seen bets and unleash high-limit side cards to beat the live dealer.",
+    description: "Play popular Indian 3-card poker. Teen Patti is highly social and fast-paced. Set blind and seen bets and unleash high-limit side cards to beat the live dealer",
     rulesTitle: "Rank Rules & Payouts",
     rules: [
-      "Each player and dealer receives 3 cards face down",
-      "The possible ranks, from highest to lowest, are: Trio (Three of a Kind), Pure Sequence, Sequence, Color, Pair, and High Card.",
-      "Players must decide whether to play Blind (without looking at their cards) or Chaals (looking at their cards to compete against the dealer’s card sequence).",
-      "Compete directly against the dealer to beat his card sequence and win payouts."
+      "Each player and dealer gets 3 cards face down",
+      "Possible ranks from highest to lowest are: Trio (Three of a Kind), Pure Sequence, Sequence, Color, Pair, and High Card",
+      "Players have to decide whether to play Blind (without looking at the cards) or Chaals (looking at the cards to compete against the dealer's card sequence)",
+      "Compete directly against the dealer to beat his card sequence and win payouts"
     ]
   }
 };
@@ -156,7 +155,7 @@ export default async function CasinoGamePage({ params }: { params: Promise<{ gam
               ))}
             </ol>
             <p className="text-gray-500 text-[13px] border-t border-white/5 pt-4 mt-2">
-              ♣️ <b>VIP Lounge Limits:</b> Table limits start at ₹100 minimum and ₹1,00,000 maximum per hand. Speak with your personal manager to set custom account limits.
+              ♣️ <b>VIP Lounge Limits:</b> The table limits start at ₹100 minimum and ₹1,00,000 maximum per hand. Contact your personal manager to set account limits
             </p>
           </div>
         </section>
