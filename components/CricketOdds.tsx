@@ -20,12 +20,12 @@ interface Group {
 
 const initialGroups: Group[] = [
   {
-    label: "🔴  LIVE NOW — 25 MAR 2026",
+    label: "🔴 LIVE NOW - 25 MAR 2026",
     type: "live",
     matches: [
       {
         name: "NEW ZEALAND V SOUTH AFRICA",
-        cat: "South Africa Tour of New Zealand — 5th T20I • Christchurch",
+        cat: "South Africa tour of New Zealand 5th T20I • Christchurch",
         date: "25 MAR",
         time: "11:45 AM",
         status: "LIVE",
@@ -34,7 +34,7 @@ const initialGroups: Group[] = [
       },
       {
         name: "NZ WOMEN V SA WOMEN",
-        cat: "SA Women Tour of New Zealand — 5th T20I • Christchurch",
+        cat: "SA Women tour of New Zealand 5th T20I • Christchurch",
         date: "25 MAR",
         time: "01:45 AM",
         status: "LIVE",
@@ -43,7 +43,7 @@ const initialGroups: Group[] = [
       },
       {
         name: "GHANA V SEYCHELLES",
-        cat: "ICC Men's T20 WC Africa Sub-Regional Qualifier B • Accra",
+        cat: "ICC Men's T20 World Cup Africa Sub-Regional Qualifier B • Accra",
         date: "25 MAR",
         time: "09:00 AM",
         status: "LIVE",
@@ -52,7 +52,7 @@ const initialGroups: Group[] = [
       },
       {
         name: "ESWATINI V TANZANIA",
-        cat: "ICC Men's T20 WC Africa Sub-Regional Qualifier B • Accra",
+        cat: "ICC Men's T20 World Cup Africa Sub-Regional Qualifier B • Accra",
         date: "25 MAR",
         time: "12:30 PM",
         status: "LIVE",
@@ -62,12 +62,12 @@ const initialGroups: Group[] = [
     ]
   },
   {
-    label: "⏳  UPCOMING TODAY — 25 MAR 2026",
+    label: "⏳ UPCOMING TODAY - 25 MAR 2026",
     type: "upcoming",
     matches: [
       {
         name: "ST HELENA V SEYCHELLES",
-        cat: "ICC Men's T20 WC Africa Sub-Regional Qualifier B • Accra",
+        cat: "ICC Men's T20 World Cup Africa Sub-Regional Qualifier B • Accra",
         date: "25 MAR",
         time: "03:30 PM",
         status: "UPCOMING",
@@ -84,12 +84,12 @@ const initialGroups: Group[] = [
     ]
   },
   {
-    label: "📅  PSL 2026 KICKS OFF — 26 MAR",
+    label: "📅 PSL 2026 KICKS OFF - 26 MAR",
     type: "upcoming",
     matches: [
       {
         name: "LAHORE QALANDARS V HYDERABAD KINGSMEN",
-        cat: "HBL Pakistan Super League 2026 — Match 1 • Gaddafi Stadium, Lahore",
+        cat: "HBL Pakistan Super League 2026 - Match 1 • Gaddafi Stadium, Lahore",
         date: "26 MAR",
         time: "08:00 PM",
         status: "UPCOMING",
@@ -97,7 +97,7 @@ const initialGroups: Group[] = [
       },
       {
         name: "KARACHI KINGS V QUETTA GLADIATORS",
-        cat: "HBL Pakistan Super League 2026 — Match 2 • National Stadium, Karachi",
+        cat: "HBL Pakistan Super League 2026 - Match 2 • National Stadium, Karachi",
         date: "26 MAR",
         time: "08:00 PM",
         status: "UPCOMING",
@@ -105,7 +105,7 @@ const initialGroups: Group[] = [
       },
       {
         name: "PESHAWAR ZALMI V RAWALPINDI PINDIZ",
-        cat: "HBL Pakistan Super League 2026 — Match 3 • Gaddafi Stadium, Lahore",
+        cat: "HBL Pakistan Super League 2026 - Match 3 • Gaddafi Stadium, Lahore",
         date: "27 MAR",
         time: "03:00 PM",
         status: "UPCOMING",
@@ -113,7 +113,7 @@ const initialGroups: Group[] = [
       },
       {
         name: "ISLAMABAD UNITED V MULTAN SULTANS",
-        cat: "HBL Pakistan Super League 2026 — Match 4 • National Stadium, Karachi",
+        cat: "HBL Pakistan Super League 2026 - Match 4 • National Stadium, Karachi",
         date: "27 MAR",
         time: "08:00 PM",
         status: "UPCOMING",
@@ -122,12 +122,12 @@ const initialGroups: Group[] = [
     ]
   },
   {
-    label: "🏏  IPL 2026 — TATA IPL SEASON 19",
+    label: "🏏 IPL 2026 - TATA IPL SEASON 19",
     type: "upcoming",
     matches: [
       {
         name: "ROYAL CHALLENGERS BENGALURU V SUNRISERS HYD",
-        cat: "TATA IPL 2026 — Match 1 (Opener) • M. Chinnaswamy Stadium, Bengaluru",
+        cat: "TATA IPL 2026 - Match 1 (Opener) • M. Chinnaswamy Stadium, Bengaluru",
         date: "28 MAR",
         time: "07:30 PM",
         status: "UPCOMING",
@@ -135,7 +135,7 @@ const initialGroups: Group[] = [
       },
       {
         name: "MUMBAI INDIANS V KOLKATA KNIGHT RIDERS",
-        cat: "TATA IPL 2026 — Match 2 • Wankhede Stadium, Mumbai",
+        cat: "TATA IPL 2026 - Match 2 • Wankhede Stadium, Mumbai",
         date: "29 MAR",
         time: "07:30 PM",
         status: "UPCOMING",
@@ -143,7 +143,7 @@ const initialGroups: Group[] = [
       },
       {
         name: "RAJASTHAN ROYALS V CHENNAI SUPER KINGS",
-        cat: "TATA IPL 2026 — Match 3 • Barsapara Stadium, Guwahati",
+        cat: "TATA IPL 2026 - Match 3 • Barsapara Stadium, Guwahati",
         date: "30 MAR",
         time: "07:30 PM",
         status: "UPCOMING",
@@ -151,7 +151,7 @@ const initialGroups: Group[] = [
       },
       {
         name: "PUNJAB KINGS V GUJARAT TITANS",
-        cat: "TATA IPL 2026 — Match 4 • Mullanpur Stadium, New Chandigarh",
+        cat: "TATA IPL 2026 - Match 4 • Mullanpur Stadium, New Chandigarh",
         date: "31 MAR",
         time: "07:30 PM",
         status: "UPCOMING",
@@ -159,7 +159,7 @@ const initialGroups: Group[] = [
       },
       {
         name: "LUCKNOW SUPER GIANTS V DELHI CAPITALS",
-        cat: "TATA IPL 2026 — Match 5 • Ekana Cricket Stadium, Lucknow",
+        cat: "TATA IPL 2026 - Match 5 • Ekana Cricket Stadium, Lucknow",
         date: "01 APR",
         time: "07:30 PM",
         status: "UPCOMING",

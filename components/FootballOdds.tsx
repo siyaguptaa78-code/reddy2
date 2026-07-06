@@ -22,13 +22,13 @@ interface Group {
 
 const initialGroups: Group[] = [
   {
-    label: "🔴  LIVE NOW — 25 MAR 2026",
+    label: "🔴 LIVE TODAY - 25 MAR 2026",
     flag: "🟢",
     type: "live",
     matches: [
       {
         name: "NORTH MACEDONIA V WALES",
-        cat: "FIFA WC 2026 Qualifier — UEFA Group J",
+        cat: "FIFA WC 2026 Qualifier - UEFA Group J",
         date: "25 MAR",
         time: "09:45 PM",
         badge: "live",
@@ -37,7 +37,7 @@ const initialGroups: Group[] = [
       },
       {
         name: "MOLDOVA V ESTONIA",
-        cat: "FIFA WC 2026 Qualifier — UEFA Group I",
+        cat: "FIFA WC 2026 Qualifier - UEFA Group I",
         date: "25 MAR",
         time: "06:00 PM",
         badge: "live",
@@ -46,7 +46,7 @@ const initialGroups: Group[] = [
       },
       {
         name: "LIECHTENSTEIN V KAZAKHSTAN",
-        cat: "FIFA WC 2026 Qualifier — UEFA Group J",
+        cat: "FIFA WC 2026 Qualifier - UEFA Group J",
         date: "25 MAR",
         time: "06:00 PM",
         badge: "live",
@@ -56,12 +56,12 @@ const initialGroups: Group[] = [
     ]
   },
   {
-    label: "⏳  UPCOMING TODAY — 25 MAR 2026",
+    label: "⏳ UPCOMING TODAY - 25 MAR 2026",
     flag: "🟡",
     type: "upcoming",
     matches: [
       {
-        name: "COLOMBIA — DEPORTIVO PEREIRA V CUCUTA",
+        name: "COLOMBIA - DEPORTIVO PEREIRA V CUCUTA",
         cat: "Colombia Primera A",
         date: "25 MAR",
         time: "10:00 PM",
@@ -69,7 +69,7 @@ const initialGroups: Group[] = [
         odds: [2.10, null, 3.20, null, 3.60, null]
       },
       {
-        name: "COLOMBIA — JUNIOR FC V BUCARAMANGA",
+        name: "COLOMBIA - JUNIOR FC V BUCARAMANGA",
         cat: "Colombia Primera A",
         date: "25 MAR",
         time: "12:30 AM",
@@ -79,7 +79,7 @@ const initialGroups: Group[] = [
     ]
   },
   {
-    label: "🏆  FIFA WC 2026 PLAYOFFS — 26 MAR (UEFA Semis)",
+    label: "🏆 FIFA WC 2026 PLAYOFFS - 26 MAR (UEFA Semis)",
     flag: "🌍",
     type: "wc",
     matches: [
@@ -115,7 +115,7 @@ const initialGroups: Group[] = [
 ];
 
 export default function FootballOdds() {
-  const [activeTab, setActiveTab] = useState<"+ LIVE" | "+ VIRTUAL" | "+ PREMIUM">("+ LIVE");
+  const [activeTab, setActiveTab] = useState<"Live" | "Virtual" | "Premium">("Live");
   const [groups, setGroups] = useState<Group[]>(initialGroups);
   const [flashes, setFlashes] = useState<Record<string, "up" | "down" | null>>({});
 
@@ -180,7 +180,7 @@ export default function FootballOdds() {
             FOOTBALL
           </div>
           <div className="flex gap-1.5">
-            {(["+ LIVE", "+ VIRTUAL", "+ PREMIUM"] as const).map((tab) => (
+            {(["Live", "Virtual", "Premium"] as const).map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
