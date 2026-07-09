@@ -105,6 +105,15 @@ export default function Header() {
             </div>
 
             <Link
+              href="/blogs"
+              className={`px-4 py-6 text-[15px] font-bold tracking-wide uppercase transition-colors duration-200 hover:text-ra-gold ${
+                isActive("/blogs") ? "text-ra-gold border-b-2 border-ra-gold" : "text-white"
+              }`}
+            >
+              Blogs
+            </Link>
+
+            <Link
               href="/contact-us"
               className={`px-4 py-6 text-[15px] font-bold tracking-wide uppercase transition-colors duration-200 hover:text-ra-gold ${
                 isActive("/contact-us") ? "text-ra-gold border-b-2 border-ra-gold" : "text-white"
@@ -228,6 +237,13 @@ export default function Header() {
             )}
           </div>
 
+          <Link
+            href="/blogs"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="py-2 text-[15px] font-bold uppercase border-b border-white/10 hover:text-ra-gold"
+          >
+            Blogs
+          </Link>
           <Link
             href="/contact-us"
             onClick={() => setIsMobileMenuOpen(false)}
