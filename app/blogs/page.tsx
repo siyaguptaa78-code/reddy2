@@ -20,6 +20,17 @@ export default function BlogsPage() {
       active: true,
     },
     {
+      id: "tnpl-2026",
+      tag: "Tournament Guide",
+      title: "TNPL 2026: Schedule, Teams, Points Table & All About Tamil Nadu Premier League Season 10",
+      excerpt:
+        "TNPL 2026 marks ten seasons of the Tamil Nadu Premier League. Season dates, all 8 teams, defending champions Tiruppur Tamizhans, venues, live streaming and FAQs.",
+      date: "8 July 2026",
+      image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+      slug: "/tnpl-2026-tamil-nadu-premier-league",
+      active: true,
+    },
+    {
       id: "ipl-betting-guide",
       tag: "Betting Tips",
       title: "IPL 2026 Betting Guide: Strategy, Drift Odds & Winning Systems",
