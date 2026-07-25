@@ -5,6 +5,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import FloatingWhatsApp from "../../components/FloatingWhatsApp";
 import AccordionItem from "../../components/Accordion";
+import { BlogCtaCard } from "../../components/BlogCtaCard";
 
 export default function TNPL2026Page() {
   const basics = [
@@ -265,22 +266,7 @@ export default function TNPL2026Page() {
             </div>
 
             {/* CTA Sidebar Banner */}
-            <div className="bg-[#c40000] text-white p-6 rounded-3xl shadow-xl border border-white/10 flex flex-col gap-4">
-              <h3 className="font-poppins font-black text-[20px] uppercase leading-tight">
-                Want to Bet on TNPL Matches?
-              </h3>
-              <p className="text-[13.5px] leading-relaxed opacity-90 font-medium">
-                Register on Reddy Anna Book for instant IDs, high odds liquidity, and direct payouts inside 30 minutes.
-              </p>
-              <a
-                href="https://wa.me/916026703858?text=Hello%20Reddy%20Anna,%20I%20want%20to%20place%20bets%20on%20TNPL%202026%20Matches."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full text-center inline-block bg-white hover:bg-black text-[#c40000] hover:text-white font-extrabold text-[13px] uppercase tracking-wider py-3 rounded-xl transition-all duration-200"
-              >
-                💬 Open ID on WhatsApp
-              </a>
-            </div>
+            <BlogCtaCard />
           </aside>
 
         </div>
