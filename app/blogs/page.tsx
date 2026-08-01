@@ -28,6 +28,7 @@ export default function BlogsPage() {
       date: "8 July 2026",
       image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
       slug: "/tnpl-2026-tamil-nadu-premier-league",
+      buttonText: "Show More",
       active: true,
     },
     {
@@ -112,7 +113,7 @@ export default function BlogsPage() {
                         href={blog.slug}
                         className="inline-block text-center w-full bg-gradient-to-r from-ra-gold to-ra-gold-dark hover:from-white hover:to-white hover:text-ra-crimson text-black font-extrabold text-[13px] uppercase tracking-wider py-3.5 px-6 rounded-xl shadow-md hover:border hover:border-ra-crimson/20 transition-all duration-200"
                       >
-                        Read Full Article &rarr;
+                        {blog.buttonText || <>Read Full Article &rarr;</>}
                       </Link>
                     ) : (
                       <button
