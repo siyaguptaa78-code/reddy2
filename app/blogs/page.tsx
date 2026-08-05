@@ -9,6 +9,28 @@ import Link from "next/link";
 export default function BlogsPage() {
   const blogs = [
     {
+      id: "cricket-toss-decision-odds-movement",
+      tag: "Cricket Betting Strategy",
+      title: "The 90-Second Decision: How Captains' Toss Choices Quietly Move Millions in Odds",
+      excerpt:
+        "Between the coin landing and the captain's bat-or-bowl call, cricket betting markets shift by millions. Here's what drives those 90 seconds of movement — and how sharp bettors position themselves before the announcement.",
+      date: "Today",
+      image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+      slug: "/cricket-toss-decision-odds-movement",
+      active: true,
+    },
+    {
+      id: "cricket-toss-betting-market",
+      tag: "Cricket Betting Strategy",
+      title: "Betting on the Coin Flip: Inside Cricket's Weirdest, Most Overlooked Market",
+      excerpt:
+        "Bookmakers offer odds on cricket's coin toss — and most bettors ignore it completely. Here's what the toss market actually tells you, who makes money from it, and why sharp bettors watch it closely.",
+      date: "Today",
+      image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+      slug: "/cricket-toss-betting-market",
+      active: true,
+    },
+    {
       id: "the-hundred-2026",
       tag: "Tournament Guide",
       title: "The Hundred 2026: Full Schedule, Fixtures, Teams, Squads & Tickets",
