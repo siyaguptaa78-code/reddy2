@@ -44,7 +44,7 @@ export default function ContactUsPage() {
       const waMsg = encodeURIComponent(
         `नमस्ते Reddy Anna Book समर्थन,\nनाम: ${name}\nईमेल: ${email}\nफोन: ${phone}\nविषय: ${subject}\nसंदेश: ${message}`
       );
-      window.open(`https://wa.me/916026703858?text=${waMsg}`, "_blank");
+      window.open(`https://wa.me/918796686330?text=${waMsg}`, "_blank");
       setSuccess(false);
       setName("");
       setEmail("");
@@ -88,7 +88,7 @@ export default function ContactUsPage() {
                     एक आवेदन करें और अपने ऑनलाइन आईडी के निर्माण, ओटीपी और डिपॉज़िट / वितर्जन के माध्यम से प्रतिक्रिया प्राप्त करें।
                   </p>
                   <a
-                    href="https://wa.me/916026703858?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20started."
+                    href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20started."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#25D366] font-bold text-[14px] hover:underline mt-1"

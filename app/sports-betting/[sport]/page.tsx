@@ -145,7 +145,7 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
                 </p>
                 <div className="flex flex-wrap gap-4 text-[13.5px] font-bold uppercase tracking-wider mt-2 w-full sm:w-auto">
                   <a
-                    href={`https://wa.me/916026703858?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20a%20${encodeURIComponent(currentSport.title)}%20ID%20now.`}
+                    href={`https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20a%20${encodeURIComponent(currentSport.title)}%20ID%20now.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-8 py-3.5 bg-gradient-to-r from-ra-gold to-ra-gold-dark hover:from-white hover:to-white hover:text-ra-crimson text-black font-extrabold rounded-lg shadow-lg hover:shadow-xl transition-all"
@@ -153,7 +153,7 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
                     Get {currentSport.title} ID
                   </a>
                   <a
-                    href="https://wa.me/916026703858?text=Hello%20Reddy%20Anna,%20I%20need%20help%20with%20sports%20betting."
+                    href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20need%20help%20with%20sports%20betting."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-8 py-3.5 bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-extrabold rounded-lg transition-all flex-grow sm:flex-grow-0 text-center"
@@ -240,7 +240,7 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
                         </td>
                         <td className="py-4 px-4 text-center">
                           <a
-                            href={`https://wa.me/916026703858?text=Hello%20Reddy%20Anna,%20I%20want%20to%20bet%20on%20${encodeURIComponent(match.team1)}%20vs%20${encodeURIComponent(match.team2)}`}
+                            href={`https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20bet%20on%20${encodeURIComponent(match.team1)}%20vs%20${encodeURIComponent(match.team2)}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-black hover:bg-[#c40000] text-white text-[12px] uppercase font-bold py-2 px-3 rounded shadow transition-all block text-center"

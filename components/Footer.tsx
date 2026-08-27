@@ -58,12 +58,12 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/login" className="hover:text-ra-gold transition-colors duration-200">
+              <Link href="https://www.Gabbar247.vip" className="hover:text-ra-gold transition-colors duration-200">
                 Reddy Anna Login
               </Link>
             </li>
             <li>
-              <Link href="/signup" className="hover:text-ra-gold transition-colors duration-200">
+              <Link href="https://www.Gabbar247.vip" className="hover:text-ra-gold transition-colors duration-200">
                 Reddy Anna Signup
               </Link>
             </li>
@@ -124,12 +124,12 @@ export default function Footer() {
             <li className="flex flex-col">
               <span className="font-bold text-white text-[13px] uppercase tracking-wide opacity-50">Reddy Anna Whatsapp</span>
               <a
-                href="https://wa.me/916026703858?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-ra-gold transition-colors duration-200 font-bold text-ra-gold flex items-center gap-1.5 mt-0.5"
               >
-                <span>💬 +91 98646 92258</span>
+                <span>💬 +91 87966 86330</span>
               </a>
             </li>
           </ul>

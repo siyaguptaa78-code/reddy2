@@ -59,7 +59,7 @@ export default function SignupPage() {
       const message = encodeURIComponent(
         `Hello Reddy Anna Book, I want to register a new Online Betting ID.\nName: ${name}\nPhone: ${phone}\nPassword: ${password}\nReferral Code: ${referral || "None"}`
       );
-      window.open(`https://wa.me/916026703858?text=${message}`, "_blank");
+      window.open(`https://wa.me/918796686330?text=${message}`, "_blank");
       setSuccess(false);
     }, 1200);
   };
@@ -235,7 +235,7 @@ export default function SignupPage() {
               </div>
 
               <a
-                href="https://wa.me/916026703858?text=Hello%20Reddy%20Anna%20Book,%20I%20want%20to%20register%20a%20new%20betting%20ID%20instantly."
+                href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna%20Book,%20I%20want%20to%20register%20a%20new%20betting%20ID%20instantly."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-3 bg-[#25D366] hover:bg-[#20ba5a] text-white font-extrabold rounded-lg shadow-md transition-all uppercase tracking-widest text-[12.5px] flex items-center justify-center gap-2"
@@ -250,7 +250,7 @@ export default function SignupPage() {
           <div className="border-t border-white/5 pt-4 text-center">
             <p className="text-gray-400 text-[13.5px]">
               Already have a Reddy Anna ID?{" "}
-              <Link href="/login" className="text-ra-gold hover:underline font-bold">
+              <Link href="https://reddynow.com/" className="text-ra-gold hover:underline font-bold">
                 Log In
               </Link>
             </p>

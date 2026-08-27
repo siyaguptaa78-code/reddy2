@@ -9,7 +9,7 @@ interface FloatingWhatsAppProps {
 }
 
 export default function FloatingWhatsApp({
-  phoneNumber = "916026703858",
+  phoneNumber = "918796686330",
   message = "Hello, Want Online ID",
   label = "Get Reddy Anna ID Now",
 }: FloatingWhatsAppProps) {

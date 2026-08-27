@@ -1,7 +1,7 @@
 import React from "react";
 
 export const BlogCtaCard: React.FC = () => {
-  const whatsappUrl = "https://wa.me/916026703858?text=Hello,%20Want%20Online%20ID";
+  const whatsappUrl = "https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID";
 
   return (
     <section className="w-full bg-white border border-gray-100 rounded-3xl p-6 md:p-8 text-center flex flex-col items-center gap-5 shadow-xl my-8 relative overflow-hidden group">

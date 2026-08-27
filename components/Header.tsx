@@ -135,13 +135,13 @@ export default function Header() {
           {/* Desktop Auth Buttons */}
           <div className="hidden lg:flex items-center gap-3">
             <Link
-              href="/signup"
+              href="https://www.Gabbar247.vip"
               className="px-6 py-2.5 bg-gradient-to-r from-ra-gold to-ra-gold-dark hover:from-white hover:to-white hover:text-ra-crimson text-black font-bold uppercase rounded-md shadow-md text-[14px] transition-all duration-200"
             >
               Signup
             </Link>
             <Link
-              href="/login"
+              href="https://www.Gabbar247.vip"
               className="px-6 py-2.5 bg-transparent border-2 border-white hover:bg-white hover:text-ra-crimson text-white font-bold uppercase rounded-md text-[14px] transition-all duration-200"
             >
               Login
@@ -151,7 +151,7 @@ export default function Header() {
           {/* Mobile Menu Buttons & Burger */}
           <div className="flex lg:hidden items-center gap-3">
             <Link
-              href="/signup"
+              href="https://www.Gabbar247.vip"
               className="px-4 py-2 bg-gradient-to-r from-ra-gold to-ra-gold-dark text-black font-bold uppercase rounded-md text-[13px]"
             >
               Signup
@@ -259,7 +259,7 @@ export default function Header() {
             About Us
           </Link>
           <Link
-            href="/login"
+            href="https://www.Gabbar247.vip"
             onClick={() => setIsMobileMenuOpen(false)}
             className="py-2 text-[15px] font-bold uppercase hover:text-ra-gold"
           >
