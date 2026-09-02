@@ -1207,37 +1207,45 @@ export default function Home() {
             <div className="bg-[#1a1a24] border-gray-800 p-6 md:p-4 rounded-xl shadow-md border border-gray-800/70 flex flex-col gap-1">
               {[
                 {
-                  q: "What is Reddy Anna Book?",
-                  a: "Reddy Anna Book is India’s trusted online sports betting and live casino platform where players can bet on cricket, football, kabaddi, casino games and much more with fast UPI withdrawals and 24/7 support.",
+                  q: "What is Reddy Anna?",
+                  a: "Reddy Anna is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information.",
                 },
                 {
-                  q: "How do I create my Reddy Anna ID?",
-                  a: "Click Sign Up / Get ID, enter your details, verify via OTP and deposit funds. Your account gets activated instantly and you can start betting within minutes.",
+                  q: "How does a Reddy Anna ID work?",
+                  a: "An account ID is generally used to identify a user account. Refer to Reddy Anna's current account instructions and terms for the exact process.",
                 },
                 {
-                  q: "Is Reddy Anna legal and safe?",
-                  a: "Yes. Reddy Anna operates responsibly under international gaming standards and follows SSL security, OTP verification and full KYC compliance to protect users and ensure safe gaming.",
+                  q: "How can I access the Reddy Anna website?",
+                  a: "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site.",
                 },
                 {
-                  q: "Can I bet on IPL and cricket matches?",
-                  a: "Absolutely. Reddy Anna provides live cricket odds for IPL, T20 World Cup, ODI World Cup and all major cricket leagues and tournaments.",
+                  q: "What sports are available on Reddy Anna?",
+                  a: "Available sports can change. Check the current sports or betting section on the website for the latest list and availability.",
                 },
                 {
-                  q: "How do I deposit and withdraw money?",
-                  a: "You can deposit and withdraw through UPI, NetBanking, IMPS, e-wallets and debit/credit cards. Verified users enjoy same-day UPI withdrawals with no hidden fees.",
+                  q: "Does Reddy Anna provide live sports information?",
+                  a: "Check the site's current sports section for any live-event information and the terms that apply to its use.",
                 },
                 {
-                  q: "Is there a Reddy Anna mobile app?",
-                  a: "Yes. The Reddy Anna App for Android and iOS allows for live betting, casino, instant deposits and withdrawals plus push notifications.",
+                  q: "How can I get help with my Reddy Anna account?",
+                  a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts.",
                 },
                 {
-                  q: "What do I do if I experience a problem during login or payment?",
-                  a: "You may raise the issue on WhatsApp, through live chat or email at Support@reddysports.co for immediate assistance. We have 24X7 support teams standing by to address any account, payment or betting queries you may have",
+                  q: "What payment options are supported?",
+                  a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts.",
                 },
                 {
-                  q: "What is the legal age to use Reddy Anna?",
-                  a: "You must be 18 years or older to register, make a deposit or place bets on the Reddy Anna platform.",
+                  q: "How can I check Reddy Anna login information?",
+                  a: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel.",
                 },
+                {
+                  q: "What should I do if I have a problem with my account?",
+                  a: "Refer to Reddy Anna's current website information and terms for the most accurate answer.",
+                },
+                {
+                  q: "Where can I find the latest Reddy Anna updates?",
+                  a: "Refer to Reddy Anna's current website information and terms for the most accurate answer.",
+                }
               ].map((faq, idx) => (
                 <AccordionItem key={idx} question={faq.q} answer={faq.a} />
               ))}
