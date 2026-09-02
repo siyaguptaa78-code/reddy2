@@ -9,6 +9,17 @@ import Link from "next/link";
 export default function BlogsPage() {
   const blogs = [
     {
+      id: "reddyofficial-guide",
+      tag: "Platform Guide",
+      title: "ReddyOfficial: Complete Guide to Reddy Anna, Sports, Features, Login and Online Gaming",
+      excerpt:
+        "ReddyOfficial is an online platform associated with the Reddy Anna brand, providing information and access related to sports betting, live cricket markets, casino gaming, account ID creation, and secure login verification.",
+      date: "Today",
+      image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+      slug: "/reddyofficial-guide",
+      active: true,
+    },
+    {
       id: "cricket-toss-decision-odds-movement",
       tag: "Cricket Betting Strategy",
       title: "The 90-Second Decision: How Captains' Toss Choices Quietly Move Millions in Odds",
