@@ -9,6 +9,17 @@ import Link from "next/link";
 export default function BlogsPage() {
   const blogs = [
     {
+      id: "babar-azam-meets-king-charles",
+      tag: "Cricket News",
+      title: "Babar Azam Meets King Charles as Pakistan Look to Salvage England Tour",
+      excerpt:
+        "Babar Azam presented a signed Pakistan team bat to King Charles during the squad's visit to Clarence House ahead of the final Test against England.",
+      date: "September 2026",
+      image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+      slug: "/babar-azam-meets-king-charles",
+      active: true,
+    },
+    {
       id: "reddyofficial-guide",
       tag: "Platform Guide",
       title: "ReddyOfficial: Complete Guide to Reddy Anna, Sports, Features, Login and Online Gaming",
