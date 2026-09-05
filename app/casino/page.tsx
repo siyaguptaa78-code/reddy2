@@ -31,7 +31,7 @@ export default function CasinoLobby() {
                 </p>
                 <div className="flex flex-wrap gap-4 text-[13.5px] font-bold uppercase tracking-wider mt-2 w-full sm:w-auto">
                   <a
-                    href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20a%20Casino%20ID%20now."
+                    href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20a%20Casino%20ID%20now."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-8 py-3.5 bg-gradient-to-r from-ra-gold to-ra-gold-dark hover:from-white hover:to-white hover:text-ra-crimson text-black font-extrabold rounded-lg shadow-lg hover:shadow-none transition-all flex-grow sm:flex-grow-0 text-center"
@@ -102,7 +102,7 @@ export default function CasinoLobby() {
                     View Details
                   </a>
                   <a
-                    href={`https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20play%20${encodeURIComponent(game.title)}%20now.`}
+                    href={`https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20play%20${encodeURIComponent(game.title)}%20now.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-grow text-center py-2.5 bg-[#ffcc00] hover:bg-white text-black font-extrabold rounded-lg text-[13px] uppercase tracking-wide transition-all"

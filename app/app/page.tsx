@@ -36,7 +36,7 @@ export default function AppDownloadPage() {
 
               <div className="flex flex-wrap gap-4 w-full text-[13.5px] font-bold uppercase tracking-wider mt-2">
                 <a
-                  href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20download%20the%20Official%20Betting%20App."
+                  href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20download%20the%20Official%20Betting%20App."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-8 py-4 bg-[#c40000] hover:bg-black text-white rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 flex-grow sm:flex-grow-0"
@@ -44,7 +44,7 @@ export default function AppDownloadPage() {
                   🤖 Download Android APK
                 </a>
                 <a
-                  href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20download%20the%20iOS%20Betting%20App."
+                  href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20download%20the%20iOS%20Betting%20App."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-8 py-4 bg-black hover:bg-[#c40000] text-white rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 flex-grow sm:flex-grow-0"
@@ -118,7 +118,7 @@ export default function AppDownloadPage() {
 
             <div className="text-center mt-10">
               <a
-                href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20my%20ID%20and%20App%20now."
+                href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20my%20ID%20and%20App%20now."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-10 py-4 bg-gradient-to-r from-ra-gold to-ra-gold-dark text-black font-extrabold rounded-full text-[14px] uppercase tracking-widest hover:brightness-110 transition-all inline-block"

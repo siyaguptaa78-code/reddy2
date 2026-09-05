@@ -32,7 +32,7 @@ export default function ReddybookPage() {
                 </p>
                 <div className="flex flex-wrap gap-4 text-[13.5px] font-bold uppercase tracking-wider mt-2 w-full sm:w-auto">
                   <a
-                    href="https://wa.me/918796686330?text=Hello%20Reddybook,%20I%20want%20to%20get%20my%20VIP%20ID%20now."
+                    href="https://wa.me/918360750829?text=Hello%20Reddybook,%20I%20want%20to%20get%20my%20VIP%20ID%20now."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-8 py-3.5 bg-gradient-to-r from-ra-gold to-ra-gold-dark hover:from-white hover:to-white hover:text-ra-crimson text-black font-extrabold rounded-lg shadow-lg hover:shadow-none transition-all flex-grow sm:flex-grow-0 text-center"
@@ -111,7 +111,7 @@ export default function ReddybookPage() {
               </ul>
               
               <a
-                href="https://wa.me/918796686330?text=Hello%20Reddybook,%20I%20want%20to%20register%20an%20account%20instantly."
+                href="https://wa.me/918360750829?text=Hello%20Reddybook,%20I%20want%20to%20register%20an%20account%20instantly."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-[#c40000] hover:bg-black text-white font-bold uppercase rounded-md shadow-md text-[14px] tracking-wide transition-all mt-2"
@@ -156,7 +156,7 @@ export default function ReddybookPage() {
                   </p>
 
                   <a
-                    href="https://wa.me/918796686330?text=Hello%20Reddybook,%20I%20want%20to%20get%20an%20ID%20for%20platform%20"
+                    href="https://wa.me/918360750829?text=Hello%20Reddybook,%20I%20want%20to%20get%20an%20ID%20for%20platform%20"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full text-center py-2.5 bg-black hover:bg-[#ffcc00] hover:text-black border-2 border-black hover:border-[#ffcc00] text-white font-bold rounded-full text-[13px] uppercase tracking-wide transition-all duration-300 shadow-sm mt-auto"

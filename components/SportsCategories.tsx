@@ -39,7 +39,7 @@ export default function SportsCategories() {
               key={idx}
               className="w-[calc(14.28%-8.5px)] sm:w-[calc(25%-6px)] flex-shrink-0 rounded-lg overflow-hidden border border-white/10 hover:border-ra-gold shadow-md hover:scale-[1.03] transition-all duration-200"
             >
-              <a href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID" target="_blank" rel="noopener noreferrer">
                 <img src={item.src} alt={item.alt} className="w-full h-auto object-cover select-none" />
               </a>
             </div>

@@ -114,7 +114,7 @@ export default async function CasinoGamePage({ params }: { params: Promise<{ gam
                 </p>
                 <div className="flex flex-wrap gap-4 text-[13.5px] font-bold uppercase tracking-wider mt-2 w-full sm:w-auto">
                   <a
-                    href={`https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20play%20Live%20${encodeURIComponent(currentGame.title)}%20now.`}
+                    href={`https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20play%20Live%20${encodeURIComponent(currentGame.title)}%20now.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-8 py-3.5 bg-[#ffcc00] hover:bg-white text-black font-extrabold rounded-lg shadow-lg hover:shadow-none transition-all flex-grow sm:flex-grow-0 text-center"
@@ -122,7 +122,7 @@ export default async function CasinoGamePage({ params }: { params: Promise<{ gam
                     Play {currentGame.title} Now
                   </a>
                   <a
-                    href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20free%20demo%20credits%20for%20casino."
+                    href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20free%20demo%20credits%20for%20casino."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-8 py-3.5 bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-extrabold rounded-lg transition-all flex-grow sm:flex-grow-0 text-center"

@@ -98,7 +98,7 @@ export default function Home() {
 
             <div className="text-center mt-6">
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3.5 bg-[#c40000] hover:bg-black text-white font-bold uppercase rounded-md shadow-md text-[14px] tracking-wide transition-all"
@@ -200,7 +200,7 @@ export default function Home() {
             </p>
 
             <a
-              href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+              href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
               target="_blank"
               rel="noopener noreferrer"
               className="px-10 py-4.5 bg-gradient-to-r from-[#ffcc00] to-[#ffaa00] text-white font-extrabold rounded-full shadow-[0_0_15px_rgba(255,204,0,0.3)] hover:bg-none hover:bg-[#1a1a24] border-gray-800 hover:text-white transition-all duration-300 uppercase tracking-widest text-[15px] mt-2 mb-10"
@@ -333,7 +333,7 @@ export default function Home() {
                   )}
 
                   <a
-                    href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                    href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full text-center py-2.5 bg-black hover:bg-[#ffcc00] hover:text-white border-2 border-black hover:border-[#ffcc00] text-white font-bold rounded-full text-[13px] uppercase tracking-wide transition-all duration-300 shadow-sm"
@@ -382,7 +382,7 @@ export default function Home() {
                 online betting.
               </p>
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-[#c40000] hover:bg-black text-white font-bold uppercase rounded-md shadow-md text-[14px] tracking-wide transition-all mt-2"
@@ -430,7 +430,7 @@ export default function Home() {
                 </li>
               </div>
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-[#c40000] hover:bg-black text-white font-bold uppercase rounded-md shadow-md text-[14px] tracking-wide transition-all mt-2"
@@ -476,7 +476,7 @@ export default function Home() {
 
             <div className="mt-6 flex flex-wrap justify-center gap-4 text-[14px] font-bold">
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#c40000] text-white hover:bg-black px-6 py-3.5 rounded-md shadow-md transition-all duration-200 uppercase tracking-wide"
@@ -484,7 +484,7 @@ export default function Home() {
                 Download Reddy Anna App
               </a>
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#25D366] text-white hover:bg-black px-6 py-3.5 rounded-md shadow-md transition-all duration-200 uppercase tracking-wide"
@@ -492,7 +492,7 @@ export default function Home() {
                 Get ID on WhatsApp
               </a>
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#333] text-white hover:bg-[#c40000] px-6 py-3.5 rounded-md shadow-md transition-all duration-200 uppercase tracking-wide"
@@ -503,7 +503,7 @@ export default function Home() {
 
             <div className="mt-4">
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-red-600 to-[#c40000] text-white px-8 py-4 text-[18px] font-bold rounded-md shadow-[0_0_15px_rgba(255,0,0,0.4)] hover:brightness-110 active:scale-98 transition-all uppercase tracking-wide"
@@ -769,7 +769,7 @@ export default function Home() {
 
             <div className="text-center mt-4">
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-[#25D366] hover:bg-black text-white font-bold uppercase rounded-md shadow-md text-[15px] tracking-wider transition-all inline-flex items-center gap-2"
@@ -802,7 +802,7 @@ export default function Home() {
                 2026.
               </p>
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3.5 bg-[#ffcc00] hover:bg-black text-white hover:text-white font-bold uppercase rounded-full shadow-md text-[14px] tracking-wide transition-all mt-2"
@@ -961,7 +961,7 @@ export default function Home() {
                 the odds are changing every ball!
               </p>
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-[#c40000] hover:bg-black text-white font-bold uppercase rounded-md shadow-md text-[14px] tracking-wide transition-all mt-2"
@@ -1178,7 +1178,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap justify-center gap-4 mt-4 font-bold text-[13.5px]">
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-[#c40000] hover:bg-black text-white uppercase rounded-md transition-all duration-200"
@@ -1186,7 +1186,7 @@ export default function Home() {
                 Claim First Deposit Bonus
               </a>
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-[#25D366] hover:bg-black text-white uppercase rounded-md transition-all duration-200"
@@ -1282,7 +1282,7 @@ export default function Home() {
 
             <div className="mt-4">
               <a
-                href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID"
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-10 py-4.5 bg-[#c40000] hover:bg-black text-white font-extrabold uppercase rounded-md shadow-2xl shadow-black/50 text-[15px] tracking-wider transition-all"

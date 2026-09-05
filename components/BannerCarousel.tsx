@@ -48,7 +48,7 @@ export default function BannerCarousel() {
       >
         {images.map((img, idx) => (
           <div key={idx} className="w-full flex-shrink-0">
-            <a href="https://wa.me/918796686330?text=Hello,%20Want%20Online%20ID" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID" target="_blank" rel="noopener noreferrer">
               <img
                 src={img.src}
                 alt={img.alt}
