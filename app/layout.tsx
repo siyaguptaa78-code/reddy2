@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://reddyofficial.com"),
   applicationName: "Reddy Anna Book",
-  title: "Reddy Anna | Reddy Anna Book | Best Betting Id Provider",
+  title: "Reddy Anna Book ID Guide | Official reddyofficial.com",
   description:
-    "Get your Reddy Anna Book ID instantly. Enjoy cricket IPL betting, casino games, & secure platform. Join India's trusted betting hub today",
+    "Explore Reddy Anna information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
   keywords: [
     "Reddy Anna",
     "Reddy Anna Book",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     google: "T1-ON7dk5r2Cxnsu9SkgTCnjtqzbr1EfhDd8tjS0Xeg",
   },
   openGraph: {
-    title: "Reddy Anna | Reddy Anna Book | Best Betting Id Provider",
+    title: "Reddy Anna Book ID Guide | Official reddyofficial.com",
     description:
-      "Get your Reddy Anna Book ID instantly. Enjoy cricket IPL betting, casino games, & secure platform. Join India's trusted betting hub today",
+      "Explore Reddy Anna information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
     url: "https://reddyofficial.com",
     siteName: "Reddy Anna Book",
     images: [
@@ -56,9 +56,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Reddy Anna | Reddy Anna Book | Best Betting Id Provider",
+    title: "Reddy Anna Book ID Guide | Official reddyofficial.com",
     description:
-      "Get your Reddy Anna Book ID instantly. Enjoy cricket IPL betting, casino games, & secure platform. Join India's trusted betting hub today",
+      "Explore Reddy Anna information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
     images: [
       "https://reddybookwinin.in/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp"
     ]
@@ -102,6 +102,126 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MB3N3699');`
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "WebSite",
+                  "@id": "https://reddyofficial.com/#website",
+                  "url": "https://reddyofficial.com/",
+                  "name": "Reddy Anna",
+                  "inLanguage": "en"
+                },
+                {
+                  "@type": "Organization",
+                  "@id": "https://reddyofficial.com/#organization",
+                  "name": "Reddy Anna",
+                  "url": "https://reddyofficial.com/"
+                },
+                {
+                  "@type": "WebPage",
+                  "@id": "https://reddyofficial.com/#webpage",
+                  "url": "https://reddyofficial.com/",
+                  "name": "Reddy Anna Book ID Guide | Official reddyofficial.com",
+                  "description": "Explore Reddy Anna information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
+                  "isPartOf": {
+                    "@id": "https://reddyofficial.com/#website"
+                  }
+                },
+                {
+                  "@type": "FAQPage",
+                  "@id": "https://reddyofficial.com/#faq",
+                  "url": "https://reddyofficial.com/",
+                  "mainEntity": [
+                    {
+                      "@type": "Question",
+                      "name": "What is Reddy Anna?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Reddy Anna is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "How does a Reddy Anna ID work?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "An account ID is generally used to identify a user account. Refer to Reddy Anna's current account instructions and terms for the exact process."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "How can I access the Reddy Anna website?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "What sports are available on Reddy Anna?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Does Reddy Anna provide live sports information?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Check the site's current sports section for any live-event information and the terms that apply to its use."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "How can I get help with my Reddy Anna account?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "What payment options are supported?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "How can I check Reddy Anna login information?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "What should I do if I have a problem with my account?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Refer to Reddy Anna's current website information and terms for the most accurate answer."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Where can I find the latest Reddy Anna updates?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Refer to Reddy Anna's current website information and terms for the most accurate answer."
+                      }
+                    }
+                  ]
+                }
+              ]
+            })
           }}
         />
       </head>
