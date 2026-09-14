@@ -32,4 +32,26 @@ export default function QuickWhatsAppGrid() {
  </div>
  </div>
  );
+  return (
+    <div className="w-full max-w-[1240px] mx-auto px-4 py-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        {items.map((item, idx) => (
+          <a
+            key={idx}
+            href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block rounded-xl overflow-hidden border-2 border-white/20 hover:border-ra-gold shadow-lg transition-transform duration-250 hover:scale-[1.02]"
+          >
+            <img
+              src={item.src}
+              alt={item.alt}
+              className="w-full h-auto object-cover select-none"
+              loading="lazy"
+            />
+          </a>
+        ))}
+      </div>
+    </div>
+  );
 }

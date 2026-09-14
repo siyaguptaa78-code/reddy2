@@ -3,7 +3,7 @@
 
 Site-Name: Reddy Official Sports
 Site-URL: https://reddysports.co
-Developer-Contact: https://wa.me/918796686330
+Developer-Contact: https://wa.me/918360750829
 Description: Official platform for Reddy Book live sports exchange, cricket schedules, tips, and live casino gaming.
 
 # AI Crawler Rules

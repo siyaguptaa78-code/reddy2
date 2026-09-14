@@ -57,6 +57,53 @@ export default function CasinoLobby() {
  </div>
  </div>
  </section>
+      <main className="w-full flex-grow bg-[#0f0f10] py-8 flex flex-col gap-10 font-sans text-white">
+        
+        {/* Casino Hero */}
+        <section className="px-4 max-w-[1240px] w-full mx-auto">
+          <div className="bg-[#191919] border border-white/10 text-white rounded-3xl overflow-hidden shadow-2xl relative">
+            <div className="absolute top-0 right-0 w-[450px] h-[450px] bg-ra-crimson/10 rounded-full blur-[120px] pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-ra-gold/5 rounded-full blur-[100px] pointer-events-none" />
+            
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center p-10 md:p-6">
+              <div className="flex flex-col gap-5 items-start relative z-10">
+                <span className="bg-[#ffcc00] text-black text-[11px] uppercase tracking-[2px] font-extrabold px-3 py-1.5 rounded-full shadow-sm">
+                  ♠️ Live Dealer Lobbies Active
+                </span>
+                <h1 className="text-[#ffcc00] font-poppins font-black text-[38px] md:text-[28px] leading-[1.2] uppercase">
+                  Reddy Anna Live Casino &mdash; Real Dealers
+                </h1>
+                <p className="text-gray-300 text-[15.5px] leading-relaxed font-sans">
+                  Immerse yourself in India&apos;s most luxurious digital casino rooms. Play classic table games like Teen Patti, Andar Bahar, Poker, Roulette, Slots, and Blackjack with professional live dealers in full HD streaming.
+                </p>
+                <div className="flex flex-wrap gap-4 text-[13.5px] font-bold uppercase tracking-wider mt-2 w-full sm:w-auto">
+                  <a
+                    href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20a%20Casino%20ID%20now."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-8 py-3.5 bg-gradient-to-r from-ra-gold to-ra-gold-dark hover:from-white hover:to-white hover:text-ra-crimson text-black font-extrabold rounded-lg shadow-lg hover:shadow-none transition-all flex-grow sm:flex-grow-0 text-center"
+                  >
+                    Get Premium Casino ID
+                  </a>
+                  <a
+                    href="https://reddynow.com/"
+                    className="px-8 py-3.5 bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-extrabold rounded-lg transition-all flex-grow sm:flex-grow-0 text-center"
+                  >
+                    Create Account
+                  </a>
+                </div>
+              </div>
+              <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/5 flex justify-center max-h-[380px]">
+                <img
+                  src="https://reddysports.co/wp-content/uploads/2026/04/Casino-Games-on-Reddy-Anna.jpg"
+                  alt="Live Casino Rooms"
+                  className="w-full max-w-[500px] h-auto object-cover select-none"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
 
  {/* Live Dealer Game Rooms Grid */}
  <section className="px-4 max-w-[1240px] w-full mx-auto">
@@ -114,6 +161,26 @@ export default function CasinoLobby() {
  ))}
  </div>
  </section>
+                <div className="flex gap-3 mt-auto pt-4 border-t border-white/5">
+                  <a
+                    href={game.route}
+                    className="flex-grow text-center py-2.5 bg-transparent border border-white/20 hover:border-ra-gold hover:text-ra-gold text-white font-bold rounded-lg text-[13px] uppercase tracking-wide transition-all"
+                  >
+                    View Details
+                  </a>
+                  <a
+                    href={`https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20play%20${encodeURIComponent(game.title)}%20now.`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-grow text-center py-2.5 bg-[#ffcc00] hover:bg-white text-black font-extrabold rounded-lg text-[13px] uppercase tracking-wide transition-all"
+                  >
+                    Direct Play
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
 
  {/* Casino Key Information Guides */}
  <section className="px-4 max-w-[1240px] w-full mx-auto py-8">

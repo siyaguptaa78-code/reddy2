@@ -52,6 +52,18 @@ export default function ContactUsPage() {
  setMessage("");
  }, 1200);
  };
+    setTimeout(() => {
+      const waMsg = encodeURIComponent(
+        `नमस्ते Reddy Anna Book समर्थन,\nनाम: ${name}\nईमेल: ${email}\nफोन: ${phone}\nविषय: ${subject}\nसंदेश: ${message}`
+      );
+      window.open(`https://wa.me/918360750829?text=${waMsg}`, "_blank");
+      setSuccess(false);
+      setName("");
+      setEmail("");
+      setPhone("");
+      setMessage("");
+    }, 1200);
+  };
 
  return (
  <>
@@ -97,6 +109,33 @@ export default function ContactUsPage() {
  </a>
  </div>
  </div>
+        {/* Contact Info Cards + Form */}
+        <section className="px-4 max-w-[1100px] w-full mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            
+            {/* Direct Channels Cards (Left Column) */}
+            <div className="lg:col-span-5 flex flex-col gap-6 w-full">
+              
+              {/* WhatsApp Card */}
+              <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-100 flex items-start gap-4 hover:border-ra-gold transition-all duration-300">
+                <span className="text-[34px]">💬</span>
+                <div className="flex flex-col gap-1.5">
+                  <h3 className="font-rajdhani font-bold text-[18px] text-[#c40000] uppercase tracking-[0.5px]">
+                    वॉट्सएप समर्थन
+                  </h3>
+                  <p className="text-gray-500 text-[13px] leading-relaxed">
+                    एक आवेदन करें और अपने ऑनलाइन आईडी के निर्माण, ओटीपी और डिपॉज़िट / वितर्जन के माध्यम से प्रतिक्रिया प्राप्त करें।
+                  </p>
+                  <a
+                    href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20started."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#25D366] font-bold text-[14px] hover:underline mt-1"
+                  >
+                    अब चैट करें +91 98646 92258 पर &rarr;
+                  </a>
+                </div>
+              </div>
 
  {/* Email Card */}
  <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-100 flex items-start gap-4 hover:border-ra-gold transition-all duration-300">

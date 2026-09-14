@@ -52,6 +52,35 @@ export default function AboutUsPage() {
  </div>
  </div>
  </section>
+        {/* Brand Story with Image */}
+        <section className="px-4 max-w-[1100px] w-full mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-8 md:p-6 rounded-2xl shadow-md border border-gray-100">
+            <div className="rounded-xl overflow-hidden shadow-sm">
+              <img
+                src="https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Betting-Platform-1024x597.jpg"
+                alt="About Reddy Anna Team Story"
+                className="w-full h-auto object-cover select-none"
+                loading="lazy"
+              />
+            </div>
+            <div className="flex flex-col gap-5 items-start">
+              <h2 className="text-[#c40000] font-rajdhani font-bold text-[28px] md:text-[24px] uppercase">
+                Sports Bet Experience for a Decade
+              </h2>
+              <p className="text-gray-600 text-[14.5px] leading-[1.8] font-sans">
+                Reddy Anna Book was created to provide an alternative source of sports betting without any dishonest agents in the chain and give Indian punters the best opportunity to participate in live betting and casinos. During the last decade, we have invented unique interfaces for the most popular sportsbooks (Cricbet99, Laser247, Lotus365) and an extended automated banking panel for fast money withdrawal. Now our brand is known as the most trustworthy source in sports betting with high odds and excellent customer care.
+              </p>
+              <a
+                href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20started."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 bg-[#c40000] hover:bg-black text-white font-bold uppercase rounded-md shadow-md text-[13px] tracking-wide transition-all mt-1"
+              >
+                Join the Best Online Gaming Club
+              </a>
+            </div>
+          </div>
+        </section>
 
  {/* Pillars of Excellence */}
  <section className="px-4 max-w-[1100px] w-full mx-auto py-4">

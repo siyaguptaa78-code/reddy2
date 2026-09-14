@@ -63,6 +63,15 @@ export default function SignupPage() {
  setSuccess(false);
  }, 1200);
  };
+    // Redirect to WhatsApp with prefilled message
+    setTimeout(() => {
+      const message = encodeURIComponent(
+        `Hello Reddy Anna Book, I want to register a new Online Betting ID.\nName: ${name}\nPhone: ${phone}\nPassword: ${password}\nReferral Code: ${referral || "None"}`
+      );
+      window.open(`https://wa.me/918360750829?text=${message}`, "_blank");
+      setSuccess(false);
+    }, 1200);
+  };
 
  return (
  <>
@@ -243,6 +252,15 @@ export default function SignupPage() {
  <span>💬</span> WhatsApp Direct Registration
  </a>
  </div>
+              <a
+                href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna%20Book,%20I%20want%20to%20register%20a%20new%20betting%20ID%20instantly."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-3 bg-[#25D366] hover:bg-[#20ba5a] text-white font-extrabold rounded-lg shadow-md transition-all uppercase tracking-widest text-[12.5px] flex items-center justify-center gap-2"
+              >
+                <span>💬</span> WhatsApp Direct Registration
+              </a>
+            </div>
 
  </form>
 

@@ -134,6 +134,31 @@ export default function Footer() {
  </li>
  </ul>
  </div>
+        {/* Column 4: Customer Support */}
+        <div className="flex flex-col gap-4">
+          <h3 className="text-white text-[18px] font-bold border-b-2 border-ra-crimson pb-2 w-fit">
+            Customer Support
+          </h3>
+          <ul className="flex flex-col gap-3 text-[14px]">
+            <li className="flex flex-col">
+              <span className="font-bold text-white text-[13px] uppercase tracking-wide opacity-50">Email Support</span>
+              <a href="mailto:Support@reddysports.co" className="hover:text-ra-gold transition-colors duration-200 font-semibold break-all">
+                Support@reddysports.co
+              </a>
+            </li>
+            <li className="flex flex-col">
+              <span className="font-bold text-white text-[13px] uppercase tracking-wide opacity-50">Reddy Anna Whatsapp</span>
+              <a
+                href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-ra-gold transition-colors duration-200 font-bold text-ra-gold flex items-center gap-1.5 mt-0.5"
+              >
+                <span>💬 +91 87966 86330</span>
+              </a>
+            </li>
+          </ul>
+        </div>
 
  </div>
 
