@@ -1,27 +1,27 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://reddyofficial.com';
-  const lastModified = new Date();
+ const baseUrl = 'https://reddyofficial.com';
+ const lastModified = new Date();
 
-  return [
-    { url: baseUrl, lastModified, changeFrequency: 'daily', priority: 1 },
-    { url: `${baseUrl}/about-us`, lastModified, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${baseUrl}/app`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/blogs`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/reddyofficial-guide`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/cricket-toss-decision-odds-movement`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/cricket-toss-betting-market`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/the-hundred-2026-schedule`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/tnpl-2026-tamil-nadu-premier-league`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/casino`, lastModified, changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${baseUrl}/contact-us`, lastModified, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${baseUrl}/reddybook`, lastModified, changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${baseUrl}/responsible-gaming`, lastModified, changeFrequency: 'yearly', priority: 0.5 },
-    { url: `${baseUrl}/sports-betting`, lastModified, changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${baseUrl}/login`, lastModified, changeFrequency: 'yearly', priority: 0.5 },
-    { url: `${baseUrl}/signup`, lastModified, changeFrequency: 'yearly', priority: 0.5 },
-    { url: `${baseUrl}/privacy-policy`, lastModified, changeFrequency: 'yearly', priority: 0.4 },
-    { url: `${baseUrl}/terms-and-conditions`, lastModified, changeFrequency: 'yearly', priority: 0.4 },
-  ];
+ return [
+ { url: baseUrl, lastModified, changeFrequency: 'daily', priority: 1 },
+ { url: `${baseUrl}/about-us`, lastModified, changeFrequency: 'monthly', priority: 0.8 },
+ { url: `${baseUrl}/app`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
+ { url: `${baseUrl}/blogs`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
+ { url: `${baseUrl}/reddyofficial-guide`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
+ { url: `${baseUrl}/cricket-toss-decision-odds-movement`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
+ { url: `${baseUrl}/cricket-toss-betting-market`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
+ { url: `${baseUrl}/the-hundred-2026-schedule`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
+ { url: `${baseUrl}/tnpl-2026-tamil-nadu-premier-league`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
+ { url: `${baseUrl}/casino`, lastModified, changeFrequency: 'weekly', priority: 0.9 },
+ { url: `${baseUrl}/contact-us`, lastModified, changeFrequency: 'monthly', priority: 0.7 },
+ { url: `${baseUrl}/reddybook`, lastModified, changeFrequency: 'weekly', priority: 0.9 },
+ { url: `${baseUrl}/responsible-gaming`, lastModified, changeFrequency: 'yearly', priority: 0.5 },
+ { url: `${baseUrl}/sports-betting`, lastModified, changeFrequency: 'weekly', priority: 0.9 },
+ { url: `${baseUrl}/login`, lastModified, changeFrequency: 'yearly', priority: 0.5 },
+ { url: `${baseUrl}/signup`, lastModified, changeFrequency: 'yearly', priority: 0.5 },
+ { url: `${baseUrl}/privacy-policy`, lastModified, changeFrequency: 'yearly', priority: 0.4 },
+ { url: `${baseUrl}/terms-and-conditions`, lastModified, changeFrequency: 'yearly', priority: 0.4 },
+ ];
 }
