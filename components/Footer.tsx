@@ -68,12 +68,12 @@ export default function Footer() {
  </Link>
  </li>
  <li>
- <Link href="/sports-betting" className="hover:text-ra-gold transition-colors duration-200">
+ <Link href="/sports" className="hover:text-ra-gold transition-colors duration-200">
  Reddy Anna Sports 
  </Link>
  </li>
  <li>
- <Link href="/sports-betting/cricket-betting" className="hover:text-ra-gold transition-colors duration-200">
+ <Link href="/sports/cricket" className="hover:text-ra-gold transition-colors duration-200">
  Reddy Anna Cricket 
  </Link>
  </li>

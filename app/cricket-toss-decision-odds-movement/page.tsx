@@ -342,10 +342,10 @@ export default function CricketTossDecisionPage() {
  <strong>First:</strong> they have read the pitch and conditions thoroughly. They know, with reasonable confidence, what a rational captain should decide if they win the toss — and what that decision will do to each team&apos;s win probability.
  </p>
  <p>
- <strong>Second:</strong> they have pre-loaded both scenarios in their head. Not &quot;I think Team A will win the toss,&quot; but &quot;If Team A wins and bats, I back Team B. If Team A wins and bowls, I back Team A.&quot; This reduces the in-window decision from analysis to execution, perfectly aligning with a fast-paced <a href="/six-second-rule-cricket-live-betting/" className="text-[#c40000] underline font-bold">cricket live strategy</a>.
+ <strong>Second:</strong> they have pre-loaded both scenarios in their head. Not &quot;I think Team A will win the toss,&quot; but &quot;If Team A wins and bats, I back Team B. If Team A wins and bowls, I back Team A.&quot; This reduces the in-window decision from analysis to execution, perfectly aligning with a fast-paced <a href="/six-second-rule-cricket-live/" className="text-[#c40000] underline font-bold">cricket live strategy</a>.
  </p>
  <p>
- <strong>Third:</strong> they have identified the pre-toss match winner odds and assessed whether those odds already price in the expected toss outcome. If the market strongly expects Team A to benefit from winning the toss — and Team A&apos;s pre-toss odds are already short — the post-toss value may be limited even if Team A does win and make the correct call, which ties heavily into interpreting <a href="/cricket-betting-line-movement/" className="text-[#c40000] underline font-bold">cricket line movement</a>.
+ <strong>Third:</strong> they have identified the pre-toss match winner odds and assessed whether those odds already price in the expected toss outcome. If the market strongly expects Team A to benefit from winning the toss — and Team A&apos;s pre-toss odds are already short — the post-toss value may be limited even if Team A does win and make the correct call, which ties heavily into interpreting <a href="/cricket-line-movement/" className="text-[#c40000] underline font-bold">cricket line movement</a>.
  </p>
  <p>
  The worst thing a bettor can do in the 90-second window is attempt fresh analysis. The analysis was done before. The window is for acting on it — or holding if the market has already moved to where you expected it to go, keeping an eye out for <a href="/underdog-formula-ipl-upsets/" className="text-[#c40000] underline font-bold">IPL underdog upset</a> opportunities.
@@ -357,7 +357,7 @@ export default function CricketTossDecisionPage() {
  Venue Breakdown: Where the Decision Creates the Most Volatility
  </h2>
  <p>
- Not all venues are equal in terms of how dramatically the toss decision moves the market. The highest-volatility venues are those where conditions strongly favour one decision, making an unexpected call from the winning captain particularly jarring to the market. Understanding the <a href="/cricket-toss-betting-market/" className="text-[#c40000] underline font-bold">cricket toss market</a> helps capitalise on these venues.
+ Not all venues are equal in terms of how dramatically the toss decision moves the market. The highest-volatility venues are those where conditions strongly favour one decision, making an unexpected call from the winning captain particularly jarring to the market. Understanding the <a href="/cricket-toss-market/" className="text-[#c40000] underline font-bold">cricket toss market</a> helps capitalise on these venues.
  </p>
 
  <div className="overflow-x-auto border border-gray-150 rounded-2xl my-4">

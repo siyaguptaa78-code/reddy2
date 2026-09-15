@@ -36,7 +36,7 @@ export default function AppDownloadPage() {
 
  <div className="flex flex-wrap gap-4 w-full text-[13.5px] font-bold uppercase tracking-wider mt-2">
  <a
- href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20download%20the%20Official%20Betting%20App."
+ href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20download%20the%20Official%20%20App."
  target="_blank"
  rel="noopener noreferrer"
  className="px-8 py-4 bg-[#c40000] hover:bg-black text-white rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 flex-grow sm:flex-grow-0"
@@ -44,7 +44,7 @@ export default function AppDownloadPage() {
  🤖 Download Android APK
  </a>
  <a
- href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20download%20the%20iOS%20Betting%20App."
+ href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20want%20to%20download%20the%20iOS%20%20App."
  target="_blank"
  rel="noopener noreferrer"
  className="px-8 py-4 bg-black hover:bg-[#c40000] text-white rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 flex-grow sm:flex-grow-0"
@@ -55,7 +55,7 @@ export default function AppDownloadPage() {
  </div>
               <div className="flex flex-wrap gap-4 w-full text-[13.5px] font-bold uppercase tracking-wider mt-2">
                 <a
-                  href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20download%20the%20Official%20Betting%20App."
+                  href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20download%20the%20Official%20%20App."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-8 py-4 bg-[#c40000] hover:bg-black text-white rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 flex-grow sm:flex-grow-0"
@@ -63,7 +63,7 @@ export default function AppDownloadPage() {
                   🤖 Download Android APK
                 </a>
                 <a
-                  href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20download%20the%20iOS%20Betting%20App."
+                  href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20download%20the%20iOS%20%20App."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-8 py-4 bg-black hover:bg-[#c40000] text-white rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 flex-grow sm:flex-grow-0"
@@ -75,7 +75,7 @@ export default function AppDownloadPage() {
 
  <div className="flex justify-center select-none">
  <img
- src="https://reddysports.co/wp-content/uploads/2025/11/Reddy-Anna-App-–-Betting-on-the-Go.webp"
+ src="https://reddysports.co/wp-content/uploads/2025/11/Reddy-Anna-App-–-on-the-Go.webp"
  alt="Reddy Anna Mobile App Screenshot"
  className="w-full max-w-[380px] h-auto object-cover filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.15)]"
  loading="lazy"

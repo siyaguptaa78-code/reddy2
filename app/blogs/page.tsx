@@ -15,7 +15,7 @@ export default function BlogsPage() {
  excerpt:
  "Babar Azam presented a signed Pakistan team bat to King Charles during the squad's visit to Clarence House ahead of the final Test against England.",
  date: "September 2026",
- image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+ image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg",
  slug: "/babar-azam-meets-king-charles",
  active: true,
  },
@@ -26,7 +26,7 @@ export default function BlogsPage() {
  excerpt:
  "ReddyOfficial is an online platform associated with the Reddy Anna brand, providing information and access related to sports, live cricket markets, casino gaming, account ID creation, and secure login verification.",
  date: "Today",
- image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+ image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg",
  slug: "/reddyofficial-guide",
  active: true,
  },
@@ -37,19 +37,19 @@ export default function BlogsPage() {
  excerpt:
  "Between the coin landing and the captain's bat-or-bowl call, cricket markets shift by millions. Here's what drives those 90 seconds of movement — and how sharp bettors position themselves before the announcement.",
  date: "Today",
- image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+ image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg",
  slug: "/cricket-toss-decision-odds-movement",
  active: true,
  },
  {
- id: "cricket-toss-betting-market",
+ id: "cricket-toss-market",
  tag: "Cricket Strategy",
  title: " on the Coin Flip: Inside Cricket's Weirdest, Most Overlooked Market",
  excerpt:
  "Bookmakers offer odds on cricket's coin toss — and most bettors ignore it completely. Here's what the toss market actually tells you, who makes money from it, and why sharp bettors watch it closely.",
  date: "Today",
- image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
- slug: "/cricket-toss-betting-market",
+ image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg",
+ slug: "/cricket-toss-market",
  active: true,
  },
  {
@@ -59,7 +59,7 @@ export default function BlogsPage() {
  excerpt:
  "The Hundred runs from 21 July to 16 August 2026, marking a brand-new era for British cricket under new ownership with IPL investments over £975 million, rebranding of major franchises, and the first-ever player auction in British sporting history.",
  date: "9 July 2026",
- image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+ image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg",
  slug: "/the-hundred-2026-schedule",
  active: true,
  },
@@ -70,19 +70,19 @@ export default function BlogsPage() {
  excerpt:
  "TNPL 2026 marks ten seasons of the Tamil Nadu Premier League. Season dates, all 8 teams, defending champions Tiruppur Tamizhans, venues, live streaming and FAQs.",
  date: "8 July 2026",
- image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+ image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg",
  slug: "/tnpl-2026-tamil-nadu-premier-league",
  buttonText: "Show More",
  active: true,
  },
  {
- id: "ipl-betting-guide",
+ id: "ipl-guide",
  tag: " Tips",
  title: "IPL 2026 Guide: Strategy, Drift Odds & Winning Systems",
  excerpt:
  "Master the art of IPL cricket. Read our in-depth strategy guide explaining live odds fluctuations, drift analysis, bankroll management, and how to use Reddy Anna exchange to maximize returns.",
  date: "5 July 2026",
- image: "https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Betting-Platform-1024x597.jpg",
+ image: "https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Platform-1024x597.jpg",
  slug: "#",
  active: false,
  },
@@ -93,7 +93,7 @@ export default function BlogsPage() {
  excerpt:
  "Explore professional casino tactics for Teen Patti, Poker, and Roulette on Reddy Anna. Learn standard structures, side-bet strategies, and the best times to lock in profits.",
  date: "28 June 2026",
- image: "https://reddysports.co/wp-content/uploads/2025/11/Reddy-Anna-App-–-Betting-on-the-Go.webp",
+ image: "https://reddysports.co/wp-content/uploads/2025/11/Reddy-Anna-App-–-on-the-Go.webp",
  slug: "#",
  active: false,
  },

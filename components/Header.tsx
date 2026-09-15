@@ -55,9 +55,9 @@ export default function Header() {
  onMouseLeave={() => setIsSportsDropdownOpen(false)}
  >
  <Link
- href="/sports-betting"
+ href="/sports"
  className={`px-4 py-6 text-[15px] font-bold tracking-wide uppercase flex items-center gap-1 transition-colors duration-200 hover:text-ra-gold ${
- pathname.startsWith("/sports-betting") ? "text-ra-gold border-b-2 border-ra-gold" : "text-white"
+ pathname.startsWith("/sports") ? "text-ra-gold border-b-2 border-ra-gold" : "text-white"
  }`}
  >
  Sports 
@@ -67,12 +67,12 @@ export default function Header() {
  </Link>
  {isSportsDropdownOpen && (
  <div className="absolute left-0 w-[220px] bg-[#6b1201] border-t-2 border-ra-crimson shadow-2xl rounded-b-md flex flex-col py-1">
- <Link href="/sports-betting/cricket-betting" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Cricket </Link>
- <Link href="/sports-betting/football-betting" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Football </Link>
- <Link href="/sports-betting/tennis-betting" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Tennis </Link>
- <Link href="/sports-betting/kabaddi-betting" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Kabaddi </Link>
- <Link href="/sports-betting/horse-betting" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Horse </Link>
- <Link href="/sports-betting/basketball-betting" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Basketball </Link>
+ <Link href="/sports/cricket" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Cricket </Link>
+ <Link href="/sports/football" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Football </Link>
+ <Link href="/sports/tennis" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Tennis </Link>
+ <Link href="/sports/kabaddi" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Kabaddi </Link>
+ <Link href="/sports/horse" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Horse </Link>
+ <Link href="/sports/basketball" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Basketball </Link>
  </div>
  )}
  </div>
@@ -206,11 +206,11 @@ export default function Header() {
  </button>
  {isSportsDropdownOpen && (
  <div className="flex flex-col pl-4 bg-black/10 py-1 gap-1">
- <Link href="/sports-betting" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">All Sports </Link>
- <Link href="/sports-betting/cricket-betting" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Cricket </Link>
- <Link href="/sports-betting/football-betting" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Football </Link>
- <Link href="/sports-betting/tennis-betting" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Tennis </Link>
- <Link href="/sports-betting/kabaddi-betting" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Kabaddi </Link>
+ <Link href="/sports" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">All Sports </Link>
+ <Link href="/sports/cricket" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Cricket </Link>
+ <Link href="/sports/football" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Football </Link>
+ <Link href="/sports/tennis" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Tennis </Link>
+ <Link href="/sports/kabaddi" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Kabaddi </Link>
  </div>
  )}
  </div>

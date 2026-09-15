@@ -4,12 +4,12 @@ import React, { useState, useEffect } from "react";
 
 const images = [
  { src: "https://reddysports.co/wp-content/uploads/2026/03/ipl-2026-reddy-anna-book-id.jpg", alt: "IPL 2026 Reddy Anna Book ID" },
- { src: "https://reddysports.co/wp-content/uploads/2026/03/psl-2026-reddy-anna-book-betting.jpg", alt: "PSL 2026 Reddy Anna Book " },
- { src: "https://reddysports.co/wp-content/uploads/2026/03/west-bengal-assembly-election-2026-reddy-anna-betting.jpg", alt: "West Bengal Assembly Election 2026" },
+ { src: "https://reddysports.co/wp-content/uploads/2026/03/psl-2026-reddy-anna-book.jpg", alt: "PSL 2026 Reddy Anna Book " },
+ { src: "https://reddysports.co/wp-content/uploads/2026/03/west-bengal-assembly-election-2026-reddy-anna.jpg", alt: "West Bengal Assembly Election 2026" },
  { src: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-exchange.webp", alt: "Reddy Anna Sports Exchange" },
  { src: "https://reddysports.co/wp-content/uploads/2026/02/zhandu-shootout-reddy-anna-casino.webp", alt: "Zhandu Shootout Reddy Anna Casino" },
  { src: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-casino-2.webp", alt: "Reddy Anna Casino 2" },
- { src: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-betting.webp", alt: "Reddy Anna Sports " },
+ { src: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports.webp", alt: "Reddy Anna Sports " },
  { src: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-greyhound-racing.webp", alt: "Reddy Anna Greyhound Racing" },
  { src: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-casino-marble-racing.webp", alt: "Reddy Anna Casino Marble Racing" },
  { src: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-casino-games-mac88.webp", alt: "Reddy Anna Casino Games Mac88" },
@@ -58,27 +58,6 @@ export default function BannerCarousel() {
  </div>
  ))}
  </div>
-  return (
-    <div className="relative w-full max-w-[1240px] mx-auto overflow-hidden rounded-lg shadow-xl border border-white/10 group">
-      
-      {/* Slider viewports wrapper */}
-      <div
-        className="flex transition-transform duration-500 ease-out"
-        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-      >
-        {images.map((img, idx) => (
-          <div key={idx} className="w-full flex-shrink-0">
-            <a href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID" target="_blank" rel="noopener noreferrer">
-              <img
-                src={img.src}
-                alt={img.alt}
-                className="w-full h-auto object-cover max-h-[480px] md:max-h-[300px] select-none"
-              />
-            </a>
-          </div>
-        ))}
-      </div>
-
  {/* Navigation Arrows */}
  <button
  onClick={prevSlide}

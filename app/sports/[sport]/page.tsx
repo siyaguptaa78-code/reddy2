@@ -15,10 +15,10 @@ interface SportDetails {
 }
 
 const sportsData: Record<string, SportDetails> = {
- "cricket-betting": {
+ "cricket": {
  title: "Cricket ",
  emoji: "🏏",
- image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+ image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg",
  description: "Welcome to the finest Cricket arena on Reddy Anna Book. Bet ball-by-ball, predict total wickets, session scores, runs over-by-over, and match winners on major tournaments like IPL, ICC World Cups, Big Bash, and T20 International Series.",
  guideTitle: "How to Place Cricket Bets on Reddy Anna Book",
  guidePoints: [
@@ -29,10 +29,10 @@ const sportsData: Record<string, SportDetails> = {
  "Ask for UPI withdrawal for your winnings settled at the end of the match"
  ]
  },
- "football-betting": {
+ "football": {
  title: "Football ",
  emoji: "⚽",
- image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Football-Betting-1024x683.jpg",
+ image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Football-1024x683.jpg",
  description: "Bet on high speed global soccer markets at Reddy Anna. We offer best odds for all national and international leagues including English Premier league, UEFA Champions league, La Liga, Serie A, and many more.",
  guideTitle: "Premium Soccer Guide",
  guidePoints: [
@@ -43,10 +43,10 @@ const sportsData: Record<string, SportDetails> = {
  "Same-day payouts of 100% winning bets to your UPI wallet/accounts."
  ]
  },
- "tennis-betting": {
+ "tennis": {
  title: "Tennis ",
  emoji: "🎾",
- image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Tennis-Betting-1024x683.png",
+ image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Tennis-1024x683.png",
  description: "Tennis matches settle extremely fast compared to other sports. Place live bets on grand slams like Wimbledon, US Open, Roland Garros, and Australian Open, or follow year-round ATP and WTA tournaments.",
  guideTitle: "Astra-tier Tennis Odds Guidelines",
  guidePoints: [
@@ -56,7 +56,7 @@ const sportsData: Record<string, SportDetails> = {
  "Get exclusive Tennis welcome cashback bonuses up to 10% on your first deposit."
  ]
  },
- "kabaddi-betting": {
+ "kabaddi": {
  title: "Kabaddi ",
  emoji: "🤼",
  image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-1024x683.jpg",
@@ -69,10 +69,10 @@ const sportsData: Record<string, SportDetails> = {
  "WhatsApp our helpdesk to claim your exclusive Kabaddi season bonuses"
  ]
  },
- "horse-betting": {
+ "horse": {
  title: "Horse Racing ",
  emoji: "🏇",
- image: "https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Betting-Platform-1024x597.jpg",
+ image: "https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Platform-1024x597.jpg",
  description: "Get the thrill of the track with us. We offer live on premium national and international horse racing events. Win, Place, Each-Way, or forecast cards with enhanced odds.",
  guideTitle: "Official Guide to Derby & Race ",
  guidePoints: [
@@ -82,10 +82,10 @@ const sportsData: Record<string, SportDetails> = {
  "Furthermore, withdraw your winning proceeds at the same hour after the racing judges announce the results."
  ]
  },
- "basketball-betting": {
+ "basketball": {
  title: "Basketball ",
  emoji: "🏀",
- image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Basketball-Betting-1024x683.jpg",
+ image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Basketball-1024x683.jpg",
  description: "Follow NBA, Euroleague, and other basketball competitions. Basketball involves highly liquid point-spread possibilities, total points over/under, and session-by-session.",
  guideTitle: "Sleek Basketball spreads & options",
  guidePoints: [
@@ -109,7 +109,7 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
  const currentSport = sportsData[sportKey] || {
  title: fallbackTitle,
  emoji: "🏆",
- image: "https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Betting-Platform-1024x597.jpg",
+ image: "https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Platform-1024x597.jpg",
  description: `Access premium sports options for ${fallbackTitle} on the Reddy Anna Book exchange. Live odds, instant slips, and fully secure transactions guaranteed.`,
  guideTitle: `Getting Started with ${fallbackTitle} on Reddy Book`,
  guidePoints: [
@@ -153,7 +153,7 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
  Get {currentSport.title} ID
  </a>
  <a
- href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20need%20help%20with%20sports%20betting."
+ href="https://wa.me/918796686330?text=Hello%20Reddy%20Anna,%20I%20need%20help%20with%20sports%20."
  target="_blank"
  rel="noopener noreferrer"
  className="px-8 py-3.5 bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-extrabold rounded-lg transition-all flex-grow sm:flex-grow-0 text-center"
@@ -183,7 +183,7 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center p-10 md:p-6">
               <div className="flex flex-col gap-5 items-start relative z-10">
                 <span className="bg-[#c40000] text-white text-[11px] uppercase tracking-[2px] font-extrabold px-3 py-1.5 rounded-full shadow-sm">
-                  Active Betting Market
+                  Active Market
                 </span>
                 <h1 className="text-ra-gold font-poppins font-black text-[38px] md:text-[28px] leading-[1.2] uppercase flex items-center gap-2">
                   <span>{currentSport.emoji}</span>
@@ -202,7 +202,7 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
                     Get {currentSport.title} ID
                   </a>
                   <a
-                    href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20need%20help%20with%20sports%20betting."
+                    href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20need%20help%20with%20sports%20."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-8 py-3.5 bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-extrabold rounded-lg transition-all flex-grow sm:flex-grow-0 text-center"
@@ -225,14 +225,14 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
 
  {/* Dynamic Odds Board Rendering */}
  <section className="px-4 max-w-[1240px] w-full mx-auto">
- {sportKey === "cricket-betting" ? (
+ {sportKey === "cricket" ? (
  <div className="flex flex-col gap-4">
  <h2 className="text-[#c40000] font-rajdhani font-bold text-[28px] uppercase tracking-[1px] flex items-center gap-2">
  🏏 Live Matches Odds Board
  </h2>
  <CricketOdds />
  </div>
- ) : sportKey === "football-betting" ? (
+ ) : sportKey === "football" ? (
  <div className="flex flex-col gap-4">
  <h2 className="text-[#c40000] font-rajdhani font-bold text-[28px] uppercase tracking-[1px] flex items-center gap-2">
  ⚽ Live Matches Odds Board

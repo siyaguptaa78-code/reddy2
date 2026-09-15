@@ -7,7 +7,7 @@ import FloatingWhatsApp from "../../components/FloatingWhatsApp";
 import AccordionItem from "../../components/Accordion";
 import { BlogCtaCard } from "../../components/BlogCtaCard";
 
-export default function CricketTossBettingMarketPage() {
+export default function CricketTossMarketPage() {
  const marginData = [
  { type: "Toss winner", margin: "8–11%", known: "Yes (50/50)" },
  { type: "Match winner (T20I)", margin: "5–8%", known: "No" },
@@ -125,7 +125,7 @@ export default function CricketTossBettingMarketPage() {
  <div className="bg-gray-50 p-4 rounded-xl border border-gray-150">
  <p className="font-bold text-gray-800 text-[14px] uppercase tracking-[0.5px] mb-2">Jump to:</p>
  <div className="flex flex-wrap gap-3 text-[14px]">
- <a href="#what-is-toss-betting" className="text-[#c40000] hover:underline font-semibold">What Is Toss </a>
+ <a href="#what-is-toss" className="text-[#c40000] hover:underline font-semibold">What Is Toss </a>
  <span className="text-gray-300">|</span>
  <a href="#the-math" className="text-[#c40000] hover:underline font-semibold">The Math Against You</a>
  <span className="text-gray-300">|</span>
@@ -156,7 +156,7 @@ export default function CricketTossBettingMarketPage() {
  </p>
  </div>
 
- <div className="flex flex-col gap-4" id="what-is-toss-betting">
+ <div className="flex flex-col gap-4" id="what-is-toss">
  <h2 className="text-[#c40000] font-rajdhani font-bold text-[28px] uppercase tracking-[0.5px]">
  What Is Cricket Toss ?
  </h2>
@@ -279,7 +279,7 @@ export default function CricketTossBettingMarketPage() {
  Post-Toss Markets: Where the Real Value Is
  </h2>
  <p>
- Here is the insight that turns toss awareness from a market into a powerful <a href="/cricket-betting-line-movement/" className="text-[#c40000] underline font-bold">cricket strategy</a>.
+ Here is the insight that turns toss awareness from a market into a powerful <a href="/cricket-line-movement/" className="text-[#c40000] underline font-bold">cricket strategy</a>.
  </p>
  <p>
  The toss matters enormously in certain conditions. On a spin-friendly subcontinental pitch drying out under afternoon heat, winning the toss and choosing to bat first is worth a significant probability advantage. In a day-night fixture in India or Sri Lanka where heavy dew settles on the outfield in the second innings, making the ball harder to grip and easier to hit, the team fielding first holds a structural advantage that winning the toss unlocks.
@@ -321,13 +321,13 @@ export default function CricketTossBettingMarketPage() {
  Using the Toss Market as a Hedge
  </h2>
  <p>
- The one scenario where the toss market has a logical role in a strategy is as a partial hedge against a match winner position. If you are <a href="/betting-on-cricket-for-30-days/" className="text-[#c40000] underline font-bold"> on cricket as a beginner</a>, this might seem advanced, but it is straightforward mathematics.
+ The one scenario where the toss market has a logical role in a strategy is as a partial hedge against a match winner position. If you are <a href="/on-cricket-for-30-days/" className="text-[#c40000] underline font-bold"> on cricket as a beginner</a>, this might seem advanced, but it is straightforward mathematics.
  </p>
  <p>
  Suppose you have backed Team A to win the match at 2.20, before the toss. The toss takes place and Team B wins it — choosing to field first on a pitch that historically favours the team that bats second. Team A&apos;s match winner odds immediately lengthen from 2.20 to 2.90. Your pre-toss bet is now looking worse.
  </p>
  <p>
- In this scenario, backing Team B to win the toss before it takes place — at 1.83 — would have partially offset the post-toss lengthening of your match winner bet. The toss bet does not neutralise the loss, but it reduces it. If you employ a <a href="/six-second-rule-cricket-live-betting/" className="text-[#c40000] underline font-bold">live strategy</a>, the speed at which you react to the toss matters greatly.
+ In this scenario, backing Team B to win the toss before it takes place — at 1.83 — would have partially offset the post-toss lengthening of your match winner bet. The toss bet does not neutralise the loss, but it reduces it. If you employ a <a href="/six-second-rule-cricket-live/" className="text-[#c40000] underline font-bold">live strategy</a>, the speed at which you react to the toss matters greatly.
  </p>
  <p>
  The problem with this logic in practice: to hedge effectively, you need to anticipate which team is most likely to benefit from the toss before it happens — which requires correct pitch reading — and then accept a 9% margin on your toss bet as the cost of the insurance. In most situations, the cost of the hedge exceeds its expected value. It makes mathematical sense only in conditions where the venue&apos;s toss advantage is so clearly defined that the post-toss market adjustment is predictably large and the hedge cost is proportionally small.

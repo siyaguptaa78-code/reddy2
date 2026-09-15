@@ -19,13 +19,13 @@ function walk(dir) {
 const files = walk('./app').concat(walk('./components'));
 let count = 0;
 
-const regex = /(?<![-/A-Za-z])\bbetting\b(?![A-Za-z_-])/gi;
+const regex = /(?<![-/A-Za-z])\b\b(?![A-Za-z_-])/gi;
 
 files.forEach(file => {
   let content = fs.readFileSync(file, 'utf8');
   let original = content;
   
-  // Replace betting where it is a standalone word, not part of a url or file path
+  // Replace where it is a standalone word, not part of a url or file path
   content = content.replace(regex, '');
   
   // Clean up double spaces created by removal

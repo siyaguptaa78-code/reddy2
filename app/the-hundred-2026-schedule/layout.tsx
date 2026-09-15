@@ -15,7 +15,7 @@ export const metadata: Metadata = {
  siteName: "Reddy Anna Book",
  images: [
  {
- url: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+ url: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg",
  width: 1024,
  height: 683,
  alt: "The Hundred 2026 Schedule"
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
  description:
  "The Hundred 2026 runs 21 July–16 August. Full schedule with UK & India times, all 8 teams after the first-ever auction, squads, tickets, live streaming and final details.",
  images: [
- "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg"
+ "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg"
  ]
  }
 };

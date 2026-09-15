@@ -89,51 +89,6 @@ export default function LobbyCarousel() {
  ))}
  </div>
  </div>
-  return (
-    <div className="flex flex-col gap-8 w-full max-w-[1240px] mx-auto overflow-hidden px-2 py-4">
-      
-      {/* Carousel 1: Lobby Cards */}
-      <div className="relative w-full overflow-hidden">
-        <div
-          className="flex transition-transform duration-500 ease-out gap-[10px] md:gap-[8px]"
-          style={{
-            transform: `translateX(calc(-${lobbyIndex * 25}% - ${lobbyIndex * 7.5}px))`
-          }}
-        >
-          {lobbyItems.map((item, idx) => (
-            <div
-              key={idx}
-              className="w-[calc(25%-7.5px)] sm:w-[calc(50%-4px)] flex-shrink-0 rounded-lg overflow-hidden border border-white/10 hover:border-ra-gold shadow-md hover:scale-[1.02] transition-all duration-200"
-            >
-              <a href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID" target="_blank" rel="noopener noreferrer">
-                <img src={item.src} alt={item.alt} className="w-full h-auto object-cover select-none" />
-              </a>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Carousel 2: Category Lobbies */}
-      <div className="relative w-full overflow-hidden">
-        <div
-          className="flex transition-transform duration-500 ease-out gap-[10px] md:gap-[8px]"
-          style={{
-            transform: `translateX(calc(-${catIndex * 25}% - ${catIndex * 7.5}px))`
-          }}
-        >
-          {categoryItems.map((item, idx) => (
-            <div
-              key={idx}
-              className="w-[calc(25%-7.5px)] sm:w-[calc(50%-4px)] flex-shrink-0 rounded-lg overflow-hidden border border-white/10 hover:border-ra-gold shadow-md hover:scale-[1.02] transition-all duration-200"
-            >
-              <a href="https://wa.me/918360750829?text=Hello,%20Want%20Online%20ID" target="_blank" rel="noopener noreferrer">
-                <img src={item.src} alt={item.alt} className="w-full h-auto object-cover select-none" />
-              </a>
-            </div>
-          ))}
-        </div>
-      </div>
-
  </div>
  );
 }

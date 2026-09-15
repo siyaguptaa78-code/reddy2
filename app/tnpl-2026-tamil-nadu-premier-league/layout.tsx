@@ -15,7 +15,7 @@ export const metadata: Metadata = {
  siteName: "Reddy Anna Book",
  images: [
  {
- url: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+ url: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg",
  width: 1024,
  height: 683,
  alt: "TNPL 2026 Tamil Nadu Premier League Schedule",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
  description:
  "TNPL 2026 marks ten seasons of the Tamil Nadu Premier League. Season dates, all 8 teams, defending champions Tiruppur Tamizhans, venues, live streaming and FAQs.",
  images: [
- "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-Betting-1024x683.jpg",
+ "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg",
  ],
  },
 };

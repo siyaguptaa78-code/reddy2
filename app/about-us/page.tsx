@@ -28,7 +28,7 @@ export default function AboutUsPage() {
  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-8 md:p-6 rounded-2xl shadow-md border border-gray-100">
  <div className="rounded-xl overflow-hidden shadow-sm">
  <img
- src="https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Betting-Platform-1024x597.jpg"
+ src="https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Platform-1024x597.jpg"
  alt="About Reddy Anna Team Story"
  className="w-full h-auto object-cover select-none"
  loading="lazy"
@@ -57,7 +57,7 @@ export default function AboutUsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-8 md:p-6 rounded-2xl shadow-md border border-gray-100">
             <div className="rounded-xl overflow-hidden shadow-sm">
               <img
-                src="https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Betting-Platform-1024x597.jpg"
+                src="https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Platform-1024x597.jpg"
                 alt="About Reddy Anna Team Story"
                 className="w-full h-auto object-cover select-none"
                 loading="lazy"
@@ -68,7 +68,7 @@ export default function AboutUsPage() {
                 Sports Bet Experience for a Decade
               </h2>
               <p className="text-gray-600 text-[14.5px] leading-[1.8] font-sans">
-                Reddy Anna Book was created to provide an alternative source of sports betting without any dishonest agents in the chain and give Indian punters the best opportunity to participate in live betting and casinos. During the last decade, we have invented unique interfaces for the most popular sportsbooks (Cricbet99, Laser247, Lotus365) and an extended automated banking panel for fast money withdrawal. Now our brand is known as the most trustworthy source in sports betting with high odds and excellent customer care.
+                Reddy Anna Book was created to provide an alternative source of sports without any dishonest agents in the chain and give Indian punters the best opportunity to participate in live and casinos. During the last decade, we have invented unique interfaces for the most popular sportsbooks (Cricbet99, Laser247, Lotus365) and an extended automated banking panel for fast money withdrawal. Now our brand is known as the most trustworthy source in sports with high odds and excellent customer care.
               </p>
               <a
                 href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20started."

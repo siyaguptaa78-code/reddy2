@@ -42,7 +42,7 @@ let newOrder = [
   'Get Cricket ID now with image',
   'How to Create Your Reddy Anna Account',
   'Reddy Anna Login Quick secure access',
-  'Cricket Betting guide with image',
+  'Cricket guide with image',
   'Popular Sports Guides lists',
   'Casino Games section',
   'Casino games features grid cards',

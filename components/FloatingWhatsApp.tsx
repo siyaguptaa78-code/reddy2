@@ -12,9 +12,6 @@ export default function FloatingWhatsApp({
  phoneNumber = "918796686330",
  message = "Hello, Want Online ID",
  label = "Get Reddy Anna ID Now",
-  phoneNumber = "918360750829",
-  message = "Hello, Want Online ID",
-  label = "Get Reddy Anna ID Now",
 }: FloatingWhatsAppProps) {
  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

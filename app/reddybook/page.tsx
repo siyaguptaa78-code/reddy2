@@ -75,7 +75,7 @@ export default function ReddybookPage() {
                   Reddybook ID Provider &mdash; Instant VIP Access
                 </h1>
                 <p className="text-gray-300 text-[15.5px] leading-relaxed">
-                  Welcome to the elite club of online betting in India. <b>Reddybook</b> offers players a highly stable gaming exchange, premium digital interface, and ultra-fast UPI/NetBanking withdrawal support. By registering with the official Reddy Anna provider, you gain instant VIP status, dedicated live managers, and 100% deposit guarantees.
+                  Welcome to the elite club of online in India. <b>Reddybook</b> offers players a highly stable gaming exchange, premium digital interface, and ultra-fast UPI/NetBanking withdrawal support. By registering with the official Reddy Anna provider, you gain instant VIP status, dedicated live managers, and 100% deposit guarantees.
                 </p>
                 <div className="flex flex-wrap gap-4 text-[13.5px] font-bold uppercase tracking-wider mt-2 w-full sm:w-auto">
                   <a
@@ -124,7 +124,7 @@ export default function ReddybookPage() {
  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-8 md:p-6 rounded-2xl shadow-lg border border-gray-100">
  <div className="rounded-xl overflow-hidden shadow-md">
  <img
- src="https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Betting-Platform-1024x597.jpg"
+ src="https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Platform-1024x597.jpg"
  alt="Reddybook VIP Experience"
  className="w-full h-auto object-cover select-none"
  loading="lazy"
@@ -173,7 +173,7 @@ export default function ReddybookPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-8 md:p-6 rounded-2xl shadow-lg border border-gray-100">
             <div className="rounded-xl overflow-hidden shadow-md">
               <img
-                src="https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Betting-Platform-1024x597.jpg"
+                src="https://reddysports.co/wp-content/uploads/2026/05/Reddy-Anna-Book-–-Indias-Most-Trusted-Online-Platform-1024x597.jpg"
                 alt="Reddybook VIP Experience"
                 className="w-full h-auto object-cover select-none"
                 loading="lazy"
@@ -184,7 +184,7 @@ export default function ReddybookPage() {
                 What Makes Reddybook Club Special?
               </h2>
               <p className="text-gray-600 text-[15px] leading-[1.7] font-sans">
-                Reddybook isn&apos;t just another exchange platform; it&apos;s a curated gaming community built for Indian betting enthusiasts who demand high-tier performance, reliable odds grids, and swift transactions.
+                Reddybook isn&apos;t just another exchange platform; it&apos;s a curated gaming community built for Indian enthusiasts who demand high-tier performance, reliable odds grids, and swift transactions.
               </p>
               
               <ul className="flex flex-col gap-3 text-gray-600 text-[14.5px] font-semibold">
