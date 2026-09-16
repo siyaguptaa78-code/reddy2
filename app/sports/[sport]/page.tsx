@@ -173,55 +173,6 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
  </div>
  </div>
  </section>
-      <main className="w-full flex-grow bg-[#f4f6f9] py-8 flex flex-col gap-10 font-sans">
-        
-        {/* Custom Hero Banner */}
-        <section className="px-4 max-w-[1240px] w-full mx-auto">
-          <div className="bg-[#0f1923] text-white rounded-3xl overflow-hidden border border-ra-gold/20 shadow-2xl relative">
-            <div className="absolute top-0 right-0 w-[350px] h-[350px] bg-ra-crimson/10 rounded-full blur-[100px] pointer-events-none" />
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center p-10 md:p-6">
-              <div className="flex flex-col gap-5 items-start relative z-10">
-                <span className="bg-[#c40000] text-white text-[11px] uppercase tracking-[2px] font-extrabold px-3 py-1.5 rounded-full shadow-sm">
-                  Active Market
-                </span>
-                <h1 className="text-ra-gold font-poppins font-black text-[38px] md:text-[28px] leading-[1.2] uppercase flex items-center gap-2">
-                  <span>{currentSport.emoji}</span>
-                  <span>{currentSport.title}</span>
-                </h1>
-                <p className="text-gray-300 text-[15.5px] leading-relaxed">
-                  {currentSport.description}
-                </p>
-                <div className="flex flex-wrap gap-4 text-[13.5px] font-bold uppercase tracking-wider mt-2 w-full sm:w-auto">
-                  <a
-                    href={`https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20a%20${encodeURIComponent(currentSport.title)}%20ID%20now.`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-8 py-3.5 bg-gradient-to-r from-ra-gold to-ra-gold-dark hover:from-white hover:to-white hover:text-ra-crimson text-black font-extrabold rounded-lg shadow-lg hover:shadow-xl transition-all"
-                  >
-                    Get {currentSport.title} ID
-                  </a>
-                  <a
-                    href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20need%20help%20with%20sports%20."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-8 py-3.5 bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-extrabold rounded-lg transition-all flex-grow sm:flex-grow-0 text-center"
-                  >
-                    💬 Chat support
-                  </a>
-                </div>
-              </div>
-              <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/5 flex justify-center">
-                <img
-                  src={currentSport.image}
-                  alt={currentSport.title}
-                  className="w-full max-w-[500px] h-[180px] sm:h-auto object-cover select-none"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
 
  {/* Dynamic Odds Board Rendering */}
  <section className="px-4 max-w-[1240px] w-full mx-auto">
@@ -305,59 +256,6 @@ export default async function SportPage({ params }: { params: Promise<{ sport: s
  </div>
  )}
  </section>
-              <div className="overflow-x-auto">
-                <table className="w-full text-left border-collapse min-w-[600px]">
-                  <thead>
-                    <tr className="bg-gray-50 text-gray-500 font-rajdhani font-bold text-[13.5px] uppercase tracking-wider border-b border-gray-150">
-                      <th className="py-3 px-4">Match Fixture / Time</th>
-                      <th className="py-3 px-4 text-center w-[120px]">Back (1)</th>
-                      <th className="py-3 px-4 text-center w-[120px]">Lay (1)</th>
-                      <th className="py-3 px-4 text-center w-[120px]">Back (2)</th>
-                      <th className="py-3 px-4 text-center w-[120px]">Lay (2)</th>
-                      <th className="py-3 px-4 text-center w-[140px]">Action</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-100 text-[14.5px] font-semibold text-gray-700">
-                    {[
-                      { team1: "Roger Federer", team2: "Rafael Nadal", tournament: "Wimbledon Men's Singles Finals", o1: 1.88, o2: 1.89, o3: 2.02, o4: 2.04 },
-                      { team1: "Haryana Steelers", team2: "Patna Pirates", tournament: "Pro Kabaddi League Series", o1: 1.72, o2: 1.74, o3: 2.15, o4: 2.18 },
-                      { team1: "Boston Celtics", team2: "LA Lakers", tournament: "NBA Championship Playoffs", o1: 1.95, o2: 1.97, o3: 1.95, o4: 1.97 }
-                    ].map((match, idx) => (
-                      <tr key={idx} className="hover:bg-gray-50 transition-colors">
-                        <td className="py-4 px-4 flex flex-col gap-0.5">
-                          <span className="font-bold text-[15px] text-gray-900">{match.team1} vs {match.team2}</span>
-                          <span className="text-gray-400 text-[12px] font-semibold uppercase tracking-wider">{match.tournament}</span>
-                        </td>
-                        <td className="py-4 px-4 text-center">
-                          <button className="w-full py-2 bg-ra-back-blue text-black rounded font-bold hover:bg-ra-back-blue-hover transition-colors">{match.o1}</button>
-                        </td>
-                        <td className="py-4 px-4 text-center">
-                          <button className="w-full py-2 bg-ra-lay-pink text-black rounded font-bold hover:bg-ra-lay-pink-hover transition-colors">{match.o2}</button>
-                        </td>
-                        <td className="py-4 px-4 text-center">
-                          <button className="w-full py-2 bg-ra-back-blue text-black rounded font-bold hover:bg-ra-back-blue-hover transition-colors">{match.o3}</button>
-                        </td>
-                        <td className="py-4 px-4 text-center">
-                          <button className="w-full py-2 bg-ra-lay-pink text-black rounded font-bold hover:bg-ra-lay-pink-hover transition-colors">{match.o4}</button>
-                        </td>
-                        <td className="py-4 px-4 text-center">
-                          <a
-                            href={`https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20bet%20on%20${encodeURIComponent(match.team1)}%20vs%20${encodeURIComponent(match.team2)}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-black hover:bg-[#c40000] text-white text-[12px] uppercase font-bold py-2 px-3 rounded shadow transition-all block text-center"
-                          >
-                            Bet Now
-                          </a>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          )}
-        </section>
 
  {/* Step-by-Step Sport Guide */}
  <section className="px-4 max-w-[1240px] w-full mx-auto">

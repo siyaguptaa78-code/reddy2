@@ -45,18 +45,6 @@ export default function LoginPage() {
  setSuccess(false);
  }, 1200);
  };
-    // Success action
-    setSuccess(true);
-    
-    // Redirect to WhatsApp with prefilled message
-    setTimeout(() => {
-      const message = encodeURIComponent(
-        `Hello Reddy Anna Book, I want to login to my account.\nPhone/Username: ${phone}\nPassword: ${password}`
-      );
-      window.open(`https://wa.me/918360750829?text=${message}`, "_blank");
-      setSuccess(false);
-    }, 1200);
-  };
 
  return (
  <>
@@ -217,15 +205,6 @@ export default function LoginPage() {
  <span>💬</span> Login with WhatsApp
  </a>
  </div>
-              <a
-                href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna%20Book,%20I%20want%20to%20login%20to%20my%20account%20instantly."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full py-3 bg-[#25D366] hover:bg-[#20ba5a] text-white font-extrabold rounded-lg shadow-md transition-all uppercase tracking-widest text-[13px] flex items-center justify-center gap-2"
-              >
-                <span>💬</span> Login with WhatsApp
-              </a>
-            </div>
 
  </form>
 

@@ -9,6 +9,17 @@ import Link from "next/link";
 export default function BlogsPage() {
  const blogs = [
  {
+ id: "csa-t20-challenge-2026-27",
+ tag: "Cricket News",
+ title: "CSA T20 Challenge 2026–27: Complete Guide to South Africa's New Domestic T20 Era",
+ excerpt:
+ "Cricket South Africa has merged the T20 Challenge and T20 Knockout into a new 16-team Pro20 Cup. Get the teams, format, opening fixtures, and full schedule for South Africa's new domestic T20 competition.",
+ date: "September 2026",
+ image: "https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg",
+ slug: "/csa-t20-challenge-2026-27",
+ active: true,
+ },
+ {
  id: "babar-azam-meets-king-charles",
  tag: "Cricket News",
  title: "Babar Azam Meets King Charles as Pakistan Look to Salvage England Tour",
