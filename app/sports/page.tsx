@@ -59,52 +59,6 @@ export default function SportsLobby() {
  </div>
  </div>
  </section>
-      <main className="w-full flex-grow bg-[#f4f6f9] py-8 flex flex-col gap-10 font-sans">
-        
-        {/* Lobby Hero section */}
-        <section className="px-4 max-w-[1240px] w-full mx-auto">
-          <div className="bg-[#0f1923] text-white rounded-3xl overflow-hidden border border-ra-gold/20 shadow-2xl relative">
-            <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-ra-crimson/10 rounded-full blur-[120px] pointer-events-none" />
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center p-10 md:p-6">
-              <div className="flex flex-col gap-5 items-start relative z-10">
-                <span className="bg-[#c40000] text-white text-[11px] uppercase tracking-[2px] font-extrabold px-3 py-1.5 rounded-full shadow-sm">
-                  Live Sports Lobby
-                </span>
-                <h1 className="text-ra-gold font-poppins font-black text-[38px] md:text-[28px] leading-[1.2] uppercase">
-                  Reddy Anna Sports &mdash; Premium Exchange
-                </h1>
-                <p className="text-gray-300 text-[15.5px] leading-relaxed">
-                  Welcome to India&apos;s ultimate sports exchange dashboard. Place live bets on hundreds of active matches daily across Cricket, Football, Tennis, Kabaddi, and more. Benefit from high-liquidity matches, real-time live-updating drift odds, and absolute withdrawal guarantees.
-                </p>
-                <div className="flex flex-wrap gap-4 text-[13.5px] font-bold uppercase tracking-wider mt-2 w-full sm:w-auto">
-                  <a
-                    href="https://wa.me/918360750829?text=Hello%20Reddy%20Anna,%20I%20want%20to%20get%20a%20Sports%20%20ID%20now."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-8 py-3.5 bg-gradient-to-r from-ra-gold to-ra-gold-dark hover:from-white hover:to-white hover:text-ra-crimson text-black font-extrabold rounded-lg shadow-lg hover:shadow-none transition-all flex-grow sm:flex-grow-0 text-center"
-                  >
-                    Get Active Sports ID
-                  </a>
-                  <a
-                    href="https://reddynow.com/"
-                    className="px-8 py-3.5 bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-extrabold rounded-lg transition-all flex-grow sm:flex-grow-0 text-center"
-                  >
-                    Secure Login
-                  </a>
-                </div>
-              </div>
-              <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/5 flex justify-center">
-                <img
-                  src="https://reddysports.co/wp-content/uploads/2026/03/Reddy-Anna-Book-Cricket-1024x683.jpg"
-                  alt="Sports Hub Live"
-                  className="w-full max-w-[500px] h-auto object-cover select-none"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
 
  {/* Categories Slider */}
  <section className="px-4 max-w-[1240px] w-full mx-auto">

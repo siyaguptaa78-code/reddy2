@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
  { url: `${baseUrl}/app`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
  { url: `${baseUrl}/blogs`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
  { url: `${baseUrl}/reddyofficial-guide`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
+ { url: `${baseUrl}/csa-t20-challenge-2026-27`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
  { url: `${baseUrl}/cricket-toss-decision-odds-movement`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
  { url: `${baseUrl}/cricket-toss-market`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
  { url: `${baseUrl}/the-hundred-2026-schedule`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
