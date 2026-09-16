@@ -411,7 +411,7 @@ export default function CsaT20Challenge2026Page() {
                 The move brings Division 1 and Division 2 teams together, expands the field to 16 teams and includes South Africa Emerging. The first fixtures are already listed for late September, with the competition continuing into November.
               </p>
               <p>
-                For fans following South African domestic cricket, the new structure should provide plenty of matches to follow and new players to discover. Reddy Anna Book will continue to provide informational coverage of major cricket tournaments, schedules, teams, players and important developments.
+                For fans following South African domestic cricket, the new structure should provide plenty of matches to follow and new players to discover. <a href="/" className="text-[#c40000] underline font-bold">Reddy Anna Book</a> will continue to provide informational coverage of major cricket tournaments, schedules, teams, players and important developments.
               </p>
             </div>
 
