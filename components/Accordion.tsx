@@ -11,10 +11,10 @@ export default function AccordionItem({ question, answer }: AccordionItemProps) 
  const [isOpen, setIsOpen] = useState(false);
 
  return (
- <div className="border-b border-[#dde3ef] py-4">
+ <div className="border-b border-gray-800 py-4">
  <button
  onClick={() => setIsOpen(!isOpen)}
- className="w-full flex items-center justify-between text-left font-rajdhani font-semibold text-[18px] text-[#1a1a2e] hover:text-[#c40000] focus:outline-none transition-colors duration-200"
+ className="w-full flex items-center justify-between text-left font-rajdhani font-semibold text-[18px] text-gray-200 hover:text-[#c40000] focus:outline-none transition-colors duration-200"
  >
  <span>{question}</span>
  <span className="ml-4 flex-shrink-0 transition-transform duration-300">
@@ -58,7 +58,7 @@ export default function AccordionItem({ question, answer }: AccordionItemProps) 
  }`}
  >
  <div className="overflow-hidden">
- <p className="text-gray-600 text-[15px] leading-relaxed font-sans">{answer}</p>
+ <p className="text-gray-400 text-[15px] leading-relaxed font-sans">{answer}</p>
  </div>
  </div>
  </div>

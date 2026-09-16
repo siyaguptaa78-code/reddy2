@@ -8,7 +8,6 @@ export default function Header() {
  const pathname = usePathname();
  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
  const [isSportsDropdownOpen, setIsSportsDropdownOpen] = useState(false);
- const [isCasinoDropdownOpen, setIsCasinoDropdownOpen] = useState(false);
 
  const isActive = (path: string) => pathname === path;
 
@@ -73,33 +72,6 @@ export default function Header() {
  <Link href="/sports/kabaddi" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Kabaddi </Link>
  <Link href="/sports/horse" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Horse </Link>
  <Link href="/sports/basketball" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Basketball </Link>
- </div>
- )}
- </div>
-
- {/* Casino Dropdown */}
- <div
- className="relative"
- onMouseEnter={() => setIsCasinoDropdownOpen(true)}
- onMouseLeave={() => setIsCasinoDropdownOpen(false)}
- >
- <Link
- href="/casino"
- className={`px-4 py-6 text-[15px] font-bold tracking-wide uppercase flex items-center gap-1 transition-colors duration-200 hover:text-ra-gold ${
- pathname.startsWith("/casino") ? "text-ra-gold border-b-2 border-ra-gold" : "text-white"
- }`}
- >
- Casino
- <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
- <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7" />
- </svg>
- </Link>
- {isCasinoDropdownOpen && (
- <div className="absolute left-0 w-[220px] bg-[#6b1201] border-t-2 border-ra-crimson shadow-2xl rounded-b-md flex flex-col py-1">
- <Link href="/casino/slots" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Slots</Link>
- <Link href="/casino/roulette" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Roulette</Link>
- <Link href="/casino/poker" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Poker</Link>
- <Link href="/casino/teen-patti" className="px-4 py-3 text-[14px] font-semibold hover:bg-[#831601] hover:text-ra-gold transition-colors">Teen Patti</Link>
  </div>
  )}
  </div>
@@ -211,28 +183,6 @@ export default function Header() {
  <Link href="/sports/football" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Football </Link>
  <Link href="/sports/tennis" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Tennis </Link>
  <Link href="/sports/kabaddi" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Kabaddi </Link>
- </div>
- )}
- </div>
-
- {/* Mobile Casino Accordion */}
- <div>
- <button
- onClick={() => setIsCasinoDropdownOpen(!isCasinoDropdownOpen)}
- className="w-full py-2 text-[15px] font-bold uppercase border-b border-white/10 flex items-center justify-between hover:text-ra-gold"
- >
- <span>Casino</span>
- <svg className={`w-4 h-4 transition-transform duration-200 ${isCasinoDropdownOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
- <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7" />
- </svg>
- </button>
- {isCasinoDropdownOpen && (
- <div className="flex flex-col pl-4 bg-black/10 py-1 gap-1">
- <Link href="/casino" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">All Casino</Link>
- <Link href="/casino/slots" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Slots</Link>
- <Link href="/casino/roulette" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Roulette</Link>
- <Link href="/casino/poker" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Poker</Link>
- <Link href="/casino/teen-patti" onClick={() => setIsMobileMenuOpen(false)} className="py-2 text-[14px] font-semibold hover:text-ra-gold">Teen Patti</Link>
  </div>
  )}
  </div>
